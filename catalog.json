@@ -1,13 +1,4 @@
 {
   "version": 1,
-  "songs": [
-    {
-      "id": "do-re-mi-demo",
-      "title": "範例：Do Re Mi",
-      "artist": "PianoTouch",
-      "bpm": 60,
-      "noteCount": 3,
-      "file": "songs/do-re-mi.pianotouch.json"
-    }
-  ]
+  "songs": []
 }
