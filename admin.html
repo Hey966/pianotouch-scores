@@ -29,7 +29,16 @@
       <p class="hint" id="editorHint">選擇 PianoTouch 樂譜 JSON，確認歌曲名稱與作者後即可上傳。</p>
       <label for="importFile">匯入樂譜 JSON</label><input id="importFile" type="file" accept=".json,application/json">
       <div class="row"><div><label for="title">歌曲名稱</label><input id="title" maxlength="120"></div><div><label for="artist">作者／演奏者</label><input id="artist" maxlength="80"></div></div>
-      <div id="advancedFields" class="hidden">
+      <label for="category">分類</label>
+      <select id="category"><option value="single">單曲</option><option value="album">專輯歌曲</option></select>
+      <div id="albumFields" class="hidden">
+        <label for="existingAlbum">已建立的專輯</label><select id="existingAlbum"><option value="">建立新專輯</option></select>
+        <div class="row">
+          <div><label for="albumName">專輯名稱</label><input id="albumName" list="albumNames" maxlength="120"><datalist id="albumNames"></datalist></div>
+          <div><label for="albumArtist">專輯演唱者／作者</label><input id="albumArtist" list="albumArtists" maxlength="80"><datalist id="albumArtists"></datalist></div>
+        </div>
+        <p class="hint">可選之前建立的專輯或作者，也可以直接輸入新名稱。</p>
+      </div>      <div id="advancedFields" class="hidden">
       <div class="row"><div><label for="bpm">BPM</label><input id="bpm" type="number" min="20" max="300" step="0.01"></div><div><label for="songId">歌曲 ID（自動產生）</label><input id="songId" readonly></div></div>
       <h3>音符</h3><div id="notes"></div><button id="addNote" type="button">＋ 新增音符</button>
       </div>
