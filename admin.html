@@ -6,14 +6,14 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'unsafe-inline'; connect-src https://api.github.com; base-uri 'none'; form-action 'none'">
   <title>PianoTouch 樂譜管理</title>
   <style>
-    :root{color-scheme:dark;font-family:system-ui,sans-serif;background:#0d1424;color:#f0f4fa}*{box-sizing:border-box}body{max-width:900px;margin:auto;padding:24px 16px 64px}h1{margin:8px 0}p,.hint{color:#b9c7df;line-height:1.6}a{color:#7ce6c3}.panel,.song{background:#18243a;border-radius:16px;padding:18px;margin:16px 0}label{display:block;margin:12px 0 4px}input,select{font:inherit;background:#0d1424;border:1px solid #4c6080;border-radius:8px;color:#f0f4fa;padding:10px;width:100%;min-height:44px}input[type=checkbox]{width:auto;min-height:0}input[type=file]{padding:8px}button{font:inherit;background:#253653;color:#f0f4fa;border:0;border-radius:10px;padding:11px 16px;min-height:44px;cursor:pointer;margin:6px 6px 6px 0}button.primary{background:#7ce6c3;color:#0d1424}button.danger{background:#64383d;color:#fff}button:disabled{opacity:.55;cursor:wait}.row{display:flex;gap:10px;align-items:end;flex-wrap:wrap}.row>*{flex:1;min-width:130px}.note{display:grid;grid-template-columns:1.4fr 1fr 1fr auto auto;gap:8px;align-items:end;padding:8px 0;border-bottom:1px solid #30415d}.note label{margin:0;font-size:13px}.note button{margin:0}.hidden{display:none!important}#status{min-height:28px;white-space:pre-wrap}.song strong{font-size:18px}@media(max-width:600px){.note{grid-template-columns:1fr 1fr}.note>*:first-child{grid-column:span 2}}
+    :root{color-scheme:dark;font-family:system-ui,sans-serif;background:#0d1424;color:#f0f4fa}*{box-sizing:border-box}body{max-width:900px;margin:auto;padding:24px 16px 64px}h1{margin:8px 0}p,.hint{color:#b9c7df;line-height:1.6}a{color:#7ce6c3}.panel,.song{background:#18243a;border-radius:16px;padding:18px;margin:16px 0}label{display:block;margin:12px 0 4px}input,select{font:inherit;background:#0d1424;border:1px solid #4c6080;border-radius:8px;color:#f0f4fa;padding:10px;width:100%;min-height:44px}input[type=checkbox]{width:auto;min-height:0}input[type=file]{padding:8px}button{font:inherit;background:#253653;color:#f0f4fa;border:0;border-radius:10px;padding:11px 16px;min-height:44px;cursor:pointer;margin:6px 6px 6px 0}button.primary{background:#7ce6c3;color:#0d1424}button.danger{background:#64383d;color:#fff}button:disabled{opacity:.55;cursor:wait}.row{display:flex;gap:10px;align-items:end;flex-wrap:wrap}.row>*{flex:1;min-width:130px}.hidden{display:none!important}#status{min-height:28px;white-space:pre-wrap}.song strong{font-size:18px}
   </style>
   <script src="admin.js" defer></script>
 </head>
 <body>
   <p><a href="index.html">← 返回公開樂譜庫</a></p>
   <h1>樂譜管理</h1>
-  <p>新增、編輯或移除線上樂譜。儲存後，App 的線上清單會跟著更新。這裡只管理網站樂譜，不修改手機內已下載的歌曲。</p>
+  <p>上傳、替換或移除樂譜 JSON，並設定歌曲名稱、作者與專輯。網站不編輯音符；音符內容以 JSON 檔為準。</p>
   <section class="panel" id="loginPanel">
     <h2>連接 GitHub</h2>
     <p>需要只授權 <strong>Hey966/pianotouch-scores</strong>、儲存庫 <strong>Contents：Read and write</strong> 的 fine-grained token。<a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">建立權杖</a>。權杖不會儲存，離開或重新整理頁面後須重新輸入。</p>
@@ -27,7 +27,7 @@
     <section id="editor" class="panel hidden">
       <h2 id="editorHeading">新增歌曲</h2>
       <p class="hint" id="editorHint">選擇 PianoTouch 樂譜 JSON，確認歌曲名稱與作者後即可上傳。</p>
-      <label for="importFile">匯入樂譜 JSON</label><input id="importFile" type="file" accept=".json,application/json">
+      <label id="fileLabel" for="importFile">選擇樂譜 JSON</label><input id="importFile" type="file" accept=".json,application/json">
       <div class="row"><div><label for="title">歌曲名稱</label><input id="title" maxlength="120"></div><div><label for="artist">作者／演奏者</label><input id="artist" maxlength="80"></div></div>
       <label for="category">分類</label>
       <select id="category"><option value="single">單曲</option><option value="album">專輯歌曲</option></select>
@@ -38,10 +38,8 @@
           <div><label for="albumArtist">專輯演唱者／作者</label><input id="albumArtist" list="albumArtists" maxlength="80"><datalist id="albumArtists"></datalist></div>
         </div>
         <p class="hint">可選之前建立的專輯或作者，也可以直接輸入新名稱。</p>
-      </div>      <div id="advancedFields" class="hidden">
-      <div class="row"><div><label for="bpm">BPM</label><input id="bpm" type="number" min="20" max="300" step="0.01"></div><div><label for="songId">歌曲 ID（自動產生）</label><input id="songId" readonly></div></div>
-      <h3>音符</h3><div id="notes"></div><button id="addNote" type="button">＋ 新增音符</button>
       </div>
+      <input id="songId" type="hidden">
       <div><button id="save" class="primary" type="button">上傳歌曲</button><button id="cancel" type="button">取消編輯</button></div>
     </section>
   </main>
