@@ -166,6 +166,15 @@
       "noteCount": 473,
       "file": "songs/song-mvmojg9c-mgkwj.pianotouch.json",
       "albumId": "album-mvmfk651-pos0n"
+    },
+    {
+      "id": "song-mvmoy99i-n3i8j",
+      "title": "黑夜問白天",
+      "artist": "JJ Lin",
+      "bpm": 66,
+      "noteCount": 1375,
+      "file": "songs/song-mvmoy99i-n3i8j.pianotouch.json",
+      "albumId": "album-mvmmkpu2-qxh57"
     }
   ]
 }
