@@ -33,9 +33,12 @@
     });
     if (!response.ok) {
       const code = response.status;
-      if (code === 401 || code === 403) throw new Error(`GitHub ${code}：請確認權杖可存取此儲存庫，且 Contents 權限為 Read and write。`);
-      if (code === 409 || code === 422) throw new Error(`GitHub ${code}：檔案可能已被別處更新，請重新整理後重試。`);
-      throw new Error(`GitHub ${code}：操作失敗。`);
+      const result = await response.json().catch(() => ({}));
+      const detail = typeof result.message === 'string' ? result.message.slice(0, 240) : '未提供原因';
+      const operation = `${method} ${path.split('?')[0]}`;
+      if (code === 401 || code === 403) throw new Error(`GitHub ${code}（${operation}）：${detail}。請檢查權杖是否選了 Hey966/pianotouch-scores，且 Contents 為 Read and write。`);
+      if (code === 409 || code === 422) throw new Error(`GitHub ${code}（${operation}）：${detail}。請重新整理後重試。`);
+      throw new Error(`GitHub ${code}（${operation}）：${detail}`);
     }
     return response.json();
   }
