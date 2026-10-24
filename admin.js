@@ -10,6 +10,7 @@
   let editing = null;
   let original = null;
   let events = [];
+  let importedFile = false;
   let busy = false;
 
   function status(message) { $('status').textContent = message; }
@@ -95,12 +96,15 @@
     });
   }
   function showEditor() { $('editor').classList.remove('hidden'); $('editor').scrollIntoView({behavior:'smooth'}); }
-  function clearEditor() { $('editor').classList.add('hidden'); $('importFile').value = ''; editing = null; original = null; events = []; }
+  function clearEditor() { $('editor').classList.add('hidden'); $('importFile').value = ''; editing = null; original = null; events = []; importedFile = false; }
   function newSong() {
-    editing = null; original = null; events = [];
-    $('editorHeading').textContent = '新增歌曲'; $('title').value = ''; $('artist').value = ''; $('bpm').value = '60';
+    editing = null; original = null; events = []; importedFile = false;
+    $('editorHeading').textContent = '新增歌曲';
+    $('editorHint').textContent = '選擇 PianoTouch 樂譜 JSON，確認歌曲名稱與作者後即可上傳。';
+    $('advancedFields').classList.add('hidden'); $('save').textContent = '上傳歌曲';
+    $('title').value = ''; $('artist').value = ''; $('bpm').value = '60';
     $('songId').value = `song-${Date.now().toString(36)}-${Math.random().toString(36).slice(2,7)}`;
-    $('importFile').value = ''; addEvent(); showEditor();
+    $('importFile').value = ''; $('notes').replaceChildren(); showEditor();
   }
   async function editSong(song) {
     if (busy) return;
@@ -109,7 +113,10 @@
       const file = await readFile(song.file);
       if (file.format !== 'pianotouch-score' || file.version !== 1 || !file.score || !Array.isArray(file.score.events)) throw new Error('樂譜格式不支援');
       editing = song; original = file.score; events = file.score.events.map(e => ({...e}));
-      $('editorHeading').textContent = '編輯歌曲'; $('title').value = song.title; $('artist').value = song.artist || '';
+      $('editorHeading').textContent = '編輯歌曲';
+      $('editorHint').textContent = '可修改歌曲資料與音符，或匯入新的樂譜 JSON 取代內容。';
+      $('advancedFields').classList.remove('hidden'); $('save').textContent = '儲存變更';
+      $('title').value = song.title; $('artist').value = song.artist || '';
       $('bpm').value = file.score.bpm; $('songId').value = song.id; $('importFile').value = '';
       renderEvents(); showEditor(); status('編輯完成後按儲存，網站與 App 清單會更新。');
     } catch (error) { status(error.message); }
@@ -149,7 +156,10 @@
   async function saveSong() {
     if (busy) return;
     let song;
-    try { song = buildSong(); } catch (error) { status(error.message); return; }
+    try {
+      if (!editing && !importedFile) throw new Error('請先選擇 PianoTouch 樂譜 JSON 檔。');
+      song = buildSong();
+    } catch (error) { status(error.message); return; }
     setBusy(true); status('儲存到 GitHub 中…');
     try {
       const latest = await loadCatalog();
@@ -201,12 +211,15 @@
   $('cancel').addEventListener('click', clearEditor);
   $('importFile').addEventListener('change', async event => {
     const file = event.target.files?.[0]; if (!file) return;
+    importedFile = false;
     try {
       if (file.size > 2_000_000) throw new Error('檔案超過 2 MB。');
       const data = JSON.parse(await file.text());
       if (data.format !== 'pianotouch-score' || data.version !== 1 || !data.score || !Array.isArray(data.score.events)) throw new Error('不是可匯入的 PianoTouch 樂譜檔。');
       $('title').value = data.score.title || ''; $('bpm').value = data.score.bpm;
-      original = data.score; events = data.score.events.map(e => ({...e})); renderEvents(); status('檔案已讀取，檢查後按儲存。');
+      original = data.score; events = data.score.events.map(e => ({...e})); importedFile = true;
+      if (editing) renderEvents();
+      status(editing ? '檔案已讀取，檢查內容後按儲存變更。' : '檔案已讀取，確認歌曲名稱與作者後按上傳。');
     } catch (error) { status(error.message); }
   });
   window.addEventListener('pagehide', () => { token = ''; });
