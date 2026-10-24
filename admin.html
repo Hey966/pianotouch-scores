@@ -6,7 +6,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'unsafe-inline'; connect-src https://api.github.com; base-uri 'none'; form-action 'none'">
   <title>PianoTouch 樂譜管理</title>
   <style>
-    :root{color-scheme:dark;font-family:system-ui,sans-serif;background:#0d1424;color:#f0f4fa}*{box-sizing:border-box}body{max-width:900px;margin:auto;padding:24px 16px 64px}h1{margin:8px 0}p,.hint{color:#b9c7df;line-height:1.6}a{color:#7ce6c3}.panel,.song{background:#18243a;border-radius:16px;padding:18px;margin:16px 0}label{display:block;margin:12px 0 4px}input,select{font:inherit;background:#0d1424;border:1px solid #4c6080;border-radius:8px;color:#f0f4fa;padding:10px;width:100%;min-height:44px}input[type=checkbox]{width:auto;min-height:0}input[type=file]{padding:8px}button{font:inherit;background:#253653;color:#f0f4fa;border:0;border-radius:10px;padding:11px 16px;min-height:44px;cursor:pointer;margin:6px 6px 6px 0}button.primary{background:#7ce6c3;color:#0d1424}button.danger{background:#64383d;color:#fff}button:disabled{opacity:.55;cursor:wait}.row{display:flex;gap:10px;align-items:end;flex-wrap:wrap}.row>*{flex:1;min-width:130px}.hidden{display:none!important}#status{min-height:28px;white-space:pre-wrap}.song strong{font-size:18px}
+    :root{color-scheme:dark;font-family:system-ui,sans-serif;background:#0d1424;color:#f0f4fa}*{box-sizing:border-box}body{max-width:900px;margin:auto;padding:24px 16px 64px}h1{margin:8px 0}p,.hint{color:#b9c7df;line-height:1.6}a{color:#7ce6c3}.panel,.song,.album-card{background:#18243a;border-radius:16px;padding:18px;margin:16px 0}label{display:block;margin:12px 0 4px}input,select{font:inherit;background:#0d1424;border:1px solid #4c6080;border-radius:8px;color:#f0f4fa;padding:10px;width:100%;min-height:44px}input[type=checkbox]{width:auto;min-height:0}input[type=file]{padding:8px}button{font:inherit;background:#253653;color:#f0f4fa;border:0;border-radius:10px;padding:11px 16px;min-height:44px;cursor:pointer;margin:6px 6px 6px 0}button.primary{background:#7ce6c3;color:#0d1424}button.danger{background:#64383d;color:#fff}button:disabled{opacity:.55;cursor:wait}.row{display:flex;gap:10px;align-items:end;flex-wrap:wrap}.row>*{flex:1;min-width:130px}.hidden{display:none!important}#status{min-height:28px;white-space:pre-wrap}.song strong{font-size:18px}.section-title{margin:28px 0 8px;border-bottom:1px solid #4c6080;padding-bottom:8px}.album-card summary{cursor:pointer;font-size:18px;font-weight:700;list-style-position:inside}.album-card .song{background:#23334e;margin:12px 0}.album-meta{color:#b9c7df;margin:8px 0}.empty{color:#b9c7df;padding:12px 0}
   </style>
   <script src="admin.js" defer></script>
 </head>
@@ -24,6 +24,15 @@
   <main id="manager" class="hidden">
     <div class="row"><h2>線上歌曲</h2><div><button id="newSong" class="primary" type="button">＋ 新增歌曲</button><button id="reload" type="button">重新整理</button><button id="disconnect" type="button">登出</button></div></div>
     <div id="songs"></div>
+    <section id="albumEditor" class="panel hidden">
+      <h2>編輯專輯</h2>
+      <p class="hint">修改專輯資料後，專輯內所有歌曲會顯示新的名稱與作者。樂譜 JSON 不會變動。</p>
+      <div class="row">
+        <div><label for="editAlbumName">專輯名稱</label><input id="editAlbumName" maxlength="120"></div>
+        <div><label for="editAlbumArtist">專輯演唱者／作者</label><input id="editAlbumArtist" maxlength="80"></div>
+      </div>
+      <button id="saveAlbum" class="primary" type="button">儲存專輯</button><button id="cancelAlbum" type="button">取消</button>
+    </section>
     <section id="editor" class="panel hidden">
       <h2 id="editorHeading">新增歌曲</h2>
       <p class="hint" id="editorHint">選擇 PianoTouch 樂譜 JSON，確認歌曲名稱與作者後即可上傳。</p>
