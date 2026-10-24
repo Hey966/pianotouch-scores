@@ -6,44 +6,66 @@
   <title>PianoTouch 樂譜庫</title>
   <style>
     :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #101727; color: #f3f6ff; }
-    body { max-width: 700px; margin: 0 auto; padding: 48px 20px; }
+    * { box-sizing: border-box; }
+    body { max-width: 850px; margin: 0 auto; padding: 48px 20px; }
     h1 { margin-bottom: 8px; }
-    p { color: #b9c7df; }
+    h2 { margin-top: 34px; }
+    p, small { color: #b9c7df; }
     ul { list-style: none; padding: 0; }
-    li { margin: 12px 0; padding: 18px; border-radius: 14px; background: #1c2941; }
-    small { display: block; margin-top: 6px; color: #b9c7df; }
+    li, .album { margin: 12px 0; padding: 18px; border-radius: 14px; background: #1c2941; }
+    .album ul { margin-bottom: 0; }
+    .album li { background: #263651; margin-bottom: 0; }
+    .album h3 { margin: 0; }
+    small { display: block; margin-top: 6px; }
     a { color: #96d9ff; }
+    .empty { padding: 16px 0; }
   </style>
 </head>
 <body>
   <h1>PianoTouch 樂譜庫</h1>
   <p>已發布的樂譜會在 PianoTouch App 的線上樂譜庫顯示，使用者可直接在 App 內加入歌曲。</p>
-  <ul id="songs"><li>正在讀取歌曲清單…</li></ul>
+  <section aria-labelledby="singleHeading"><h2 id="singleHeading">單曲</h2><ul id="singles"><li>正在讀取歌曲清單…</li></ul></section>
+  <section aria-labelledby="albumHeading"><h2 id="albumHeading">專輯</h2><div id="albums"></div></section>
   <p><a href="admin.html">管理樂譜（新增／編輯／移除）</a></p>
-  <p><small>資料來源：<a href="catalog.json">catalog.json</a></small></p>
   <script>
-    fetch("catalog.json", { cache: "no-store" })
-      .then(response => { if (!response.ok) throw new Error("讀取失敗"); return response.json(); })
+    function songItem(song) {
+      const item = document.createElement('li');
+      const title = document.createElement('strong'); title.textContent = song.title;
+      const details = document.createElement('small');
+      details.textContent = [song.artist, song.bpm + ' BPM', song.noteCount + ' 個音符'].filter(Boolean).join(' · ');
+      item.append(title, details); return item;
+    }
+    function empty(text) {
+      const item = document.createElement('p'); item.className = 'empty'; item.textContent = text; return item;
+    }
+    fetch('catalog.json', {cache:'no-store'})
+      .then(response => { if (!response.ok) throw new Error('讀取失敗'); return response.json(); })
       .then(catalog => {
-        if (catalog.version !== 1 || !Array.isArray(catalog.songs)) throw new Error("格式錯誤");
-        const list = document.getElementById("songs");
-        list.replaceChildren();
-        if (catalog.songs.length === 0) {
-          const item = document.createElement("li");
-          item.textContent = "目前沒有已發布的歌曲。";
-          list.append(item);
-        }
-        for (const song of catalog.songs) {
-          const item = document.createElement("li");
-          const title = document.createElement("strong");
-          title.textContent = song.title;
-          const details = document.createElement("small");
-          details.textContent = [song.artist, song.bpm + " BPM", song.noteCount + " 個音符"].join(" · ");
-          item.append(title, details);
-          list.append(item);
+        if (catalog.version !== 1 || !Array.isArray(catalog.songs)) throw new Error('格式錯誤');
+        const albums = Array.isArray(catalog.albums) ? catalog.albums : [];
+        const albumIds = new Set(albums.map(a => a.id));
+        const singles = catalog.songs.filter(song => !song.albumId || !albumIds.has(song.albumId));
+        const singleList = document.getElementById('singles'); singleList.replaceChildren();
+        if (singles.length) singles.forEach(song => singleList.append(songItem(song)));
+        else singleList.append(empty('目前沒有單曲。'));
+        const albumList = document.getElementById('albums'); albumList.replaceChildren();
+        if (!albums.length) albumList.append(empty('目前沒有專輯。'));
+        for (const album of albums) {
+          const card = document.createElement('div'); card.className = 'album';
+          const heading = document.createElement('h3'); heading.textContent = album.name;
+          const artist = document.createElement('small'); artist.textContent = album.artist || '未標示演唱者／作者';
+          const songs = document.createElement('ul');
+          const tracks = catalog.songs.filter(song => song.albumId === album.id);
+          if (tracks.length) tracks.forEach(song => songs.append(songItem(song)));
+          else songs.append(empty('這個專輯目前沒有歌曲。'));
+          card.append(heading, artist, songs); albumList.append(card);
         }
       })
-      .catch(() => { document.getElementById("songs").textContent = "歌曲清單暫時無法讀取。"; });
+      .catch(() => {
+        document.getElementById('singles').textContent = '歌曲清單暫時無法讀取。';
+        document.getElementById('albums').replaceChildren();
+      });
   </script>
 </body>
 </html>
+
