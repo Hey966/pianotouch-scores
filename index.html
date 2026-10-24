@@ -24,6 +24,7 @@
 <body>
   <h1>PianoTouch 樂譜庫</h1>
   <p>已發布的樂譜會在 PianoTouch App 的線上樂譜庫顯示，使用者可直接在 App 內加入歌曲。</p>
+  <p id="syncStatus" role="status"></p>
   <section aria-labelledby="singleHeading"><h2 id="singleHeading">單曲</h2><ul id="singles"><li>正在讀取歌曲清單…</li></ul></section>
   <section aria-labelledby="albumHeading"><h2 id="albumHeading">專輯</h2><div id="albums"></div></section>
   <p><a href="admin.html">管理樂譜（新增／編輯／移除）</a></p>
@@ -38,9 +39,29 @@
     function empty(text) {
       const item = document.createElement('p'); item.className = 'empty'; item.textContent = text; return item;
     }
-    fetch('catalog.json', {cache:'no-store'})
-      .then(response => { if (!response.ok) throw new Error('讀取失敗'); return response.json(); })
-      .then(catalog => {
+    async function readLatestCatalog() {
+      try {
+        const url = 'https://api.github.com/repos/Hey966/pianotouch-scores/contents/catalog.json?ref=main&v=' + Date.now();
+        const response = await fetch(url, {cache:'no-store', headers:{Accept:'application/vnd.github+json'}});
+        if (!response.ok) throw new Error('GitHub 暫時無法讀取');
+        const file = await response.json();
+        if (file.encoding !== 'base64' || !file.content) throw new Error('樂譜清單無法解析');
+        const binary = atob(file.content.replace(/\s/g, ''));
+        const bytes = Uint8Array.from(binary, c => c.charCodeAt(0));
+        return {catalog:JSON.parse(new TextDecoder().decode(bytes)), fallback:false};
+      } catch (_) {
+        const response = await fetch('catalog.json?v=' + Date.now(), {cache:'no-store'});
+        if (!response.ok) throw new Error('讀取失敗');
+        return {catalog:await response.json(), fallback:true};
+      }
+    }
+    let requestNumber = 0;
+    async function loadScores() {
+      const current = ++requestNumber;
+      try {
+        const {catalog, fallback} = await readLatestCatalog();
+        if (current !== requestNumber) return;
+        document.getElementById('syncStatus').textContent = fallback ? '即時清單暫時無法讀取，顯示的歌曲可能稍有延遲。' : '';
         if (catalog.version !== 1 || !Array.isArray(catalog.songs)) throw new Error('格式錯誤');
         const albums = Array.isArray(catalog.albums) ? catalog.albums : [];
         const albumIds = new Set(albums.map(a => a.id));
@@ -60,11 +81,15 @@
           else songs.append(empty('這個專輯目前沒有歌曲。'));
           card.append(heading, artist, songs); albumList.append(card);
         }
-      })
-      .catch(() => {
+      } catch (_) {
+        if (current !== requestNumber) return;
         document.getElementById('singles').textContent = '歌曲清單暫時無法讀取。';
         document.getElementById('albums').replaceChildren();
-      });
+        document.getElementById('syncStatus').textContent = '';
+      }
+    }
+    window.addEventListener('pageshow', loadScores);
+    document.addEventListener('visibilitychange', () => { if (!document.hidden) loadScores(); });
   </script>
 </body>
 </html>
