@@ -10,6 +10,11 @@
       "id": "album-mvmg2b0x-trfe8",
       "name": "奧利•莫爾斯",
       "artist": "Olly Murs"
+    },
+    {
+      "id": "album-mvmg4wxj-q4x8q",
+      "name": "美國邁阿密",
+      "artist": "Bad Style"
     }
   ],
   "songs": [
@@ -39,6 +44,15 @@
       "noteCount": 173,
       "file": "songs/song-mvmg081d-e11zz.pianotouch.json",
       "albumId": "album-mvmg2b0x-trfe8"
+    },
+    {
+      "id": "song-mvmg2tcn-l53ut",
+      "title": "Time Back",
+      "artist": "Bad Style",
+      "bpm": 120,
+      "noteCount": 2352,
+      "file": "songs/song-mvmg2tcn-l53ut.pianotouch.json",
+      "albumId": "album-mvmg4wxj-q4x8q"
     }
   ]
 }
