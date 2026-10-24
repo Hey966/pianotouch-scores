@@ -1,0 +1,7918 @@
+{
+  "format": "pianotouch-score",
+  "version": 1,
+  "score": {
+    "title": "Right Here Waiting",
+    "bpm": 88,
+    "reviewed": false,
+    "sourceImage": "",
+    "endBeat": 361.638920075,
+    "issues": [
+      "此檔為方案B改編版，非精確原譜。原譜超出PianoTouch的C3～B5音域者不輸出，不以移調、八度折回或近似音替代。",
+      "依5頁89小節的《Right Here Waiting／此情可待》樂譜及同曲EveryonePiano EOP事件輔助建立；來源曲名《此情可待-Right Here Waiting》，EOP譜首4/4與88 BPM。音符起點及時值經換算，部分琶音帶有細小時間差。",
+      "變速時間軸換算：JSON bpm=88；譜面第1～8小節88 BPM、第9～59小節87 BPM、第60～86小節87 BPM、第87～88小節86 BPM、第89小節60 BPM。透過beat/length換算保留各段時長；不是原始整數拍時間軸。",
+      "變速標示：第9小節87 BPM、第60小節87 BPM、第87小節86 BPM、第89小節60 BPM。",
+      "EOP原始事件常提前50毫秒鬆鍵；本檔依已還原的記譜時值使用原始起音與延長時值，對連續同鍵重疊則依授權截短前音。",
+      "方案B省略：第6小節、譜面beat=20.000、音高B2（MIDI 47），超出C3～B5。",
+      "方案B省略：第7小節、譜面beat=24.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第8小節、譜面beat=28.000、音高F2（MIDI 41），超出C3～B5。",
+      "方案B省略：第8小節、譜面beat=30.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第9小節、譜面beat=32.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第10小節、譜面beat=36.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第12小節、譜面beat=44.000、音高B2（MIDI 47），超出C3～B5。",
+      "方案B省略：第13小節、譜面beat=48.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第14小節、譜面beat=52.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第16小節、譜面beat=60.000、音高B2（MIDI 47），超出C3～B5。",
+      "方案B省略：第17小節、譜面beat=64.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第18小節、譜面beat=68.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第19小節、譜面beat=72.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第20小節、譜面beat=76.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第21小節、譜面beat=80.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第22小節、譜面beat=84.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第23小節、譜面beat=88.000、音高C2（MIDI 36），超出C3～B5。",
+      "方案B省略：第24小節、譜面beat=92.000、音高B2（MIDI 47），超出C3～B5。",
+      "方案B省略：第25小節、譜面beat=96.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第26小節、譜面beat=100.000、音高F2（MIDI 41），超出C3～B5。",
+      "方案B省略：第26小節、譜面beat=102.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第27小節、譜面beat=104.000、音高C2（MIDI 36），超出C3～B5。",
+      "方案B省略：第28小節、譜面beat=108.000、音高B2（MIDI 47），超出C3～B5。",
+      "方案B省略：第29小節、譜面beat=112.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第30小節、譜面beat=116.000、音高F2（MIDI 41），超出C3～B5。",
+      "方案B省略：第30小節、譜面beat=118.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第31小節、譜面beat=120.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第32小節、譜面beat=124.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第34小節、譜面beat=132.000、音高B2（MIDI 47），超出C3～B5。",
+      "方案B省略：第35小節、譜面beat=136.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第36小節、譜面beat=140.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第38小節、譜面beat=148.000、音高B2（MIDI 47），超出C3～B5。",
+      "方案B省略：第39小節、譜面beat=152.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第40小節、譜面beat=156.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第41小節、譜面beat=160.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第42小節、譜面beat=164.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第43小節、譜面beat=168.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第44小節、譜面beat=172.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第45小節、譜面beat=176.000、音高C2（MIDI 36），超出C3～B5。",
+      "方案B省略：第46小節、譜面beat=180.000、音高B2（MIDI 47），超出C3～B5。",
+      "方案B省略：第47小節、譜面beat=184.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第48小節、譜面beat=188.000、音高F2（MIDI 41），超出C3～B5。",
+      "方案B省略：第48小節、譜面beat=190.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第49小節、譜面beat=192.000、音高C2（MIDI 36），超出C3～B5。",
+      "方案B省略：第50小節、譜面beat=196.000、音高B2（MIDI 47），超出C3～B5。",
+      "方案B省略：第51小節、譜面beat=200.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第52小節、譜面beat=204.000、音高F2（MIDI 41），超出C3～B5。",
+      "方案B省略：第52小節、譜面beat=206.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第53小節、譜面beat=208.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第54小節、譜面beat=212.000、音高C2（MIDI 36），超出C3～B5。",
+      "方案B省略：第55小節、譜面beat=216.000、音高F2（MIDI 41），超出C3～B5。",
+      "方案B省略：第56小節、譜面beat=220.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第57小節、譜面beat=224.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第58小節、譜面beat=228.000、音高C2（MIDI 36），超出C3～B5。",
+      "方案B省略：第59小節、譜面beat=232.000、音高F2（MIDI 41），超出C3～B5。",
+      "方案B省略：第59小節、譜面beat=234.000、音高F2（MIDI 41），超出C3～B5。",
+      "方案B省略：第60小節、譜面beat=236.000、音高G1（MIDI 31），超出C3～B5。",
+      "方案B省略：第60小節、譜面beat=236.500、音高F2（MIDI 41），超出C3～B5。",
+      "方案B省略：第60小節、譜面beat=236.750、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第60小節、譜面beat=238.000、音高G1（MIDI 31），超出C3～B5。",
+      "方案B省略：第60小節、譜面beat=238.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第60小節、譜面beat=239.667、音高C6（MIDI 84），超出C3～B5。",
+      "方案B省略：第60小節、譜面beat=239.778、音高D6（MIDI 86），超出C3～B5。",
+      "方案B省略：第60小節、譜面beat=239.889、音高F6（MIDI 89），超出C3～B5。",
+      "方案B省略：第61小節、譜面beat=240.000、音高C2（MIDI 36），超出C3～B5。",
+      "方案B省略：第61小節、譜面beat=240.000、音高C6（MIDI 84），超出C3～B5。",
+      "方案B省略：第61小節、譜面beat=240.000、音高E6（MIDI 88），超出C3～B5。",
+      "方案B省略：第61小節、譜面beat=240.000、音高G6（MIDI 91），超出C3～B5。",
+      "方案B省略：第61小節、譜面beat=241.500、音高G6（MIDI 91），超出C3～B5。",
+      "方案B省略：第61小節、譜面beat=242.000、音高G6（MIDI 91），超出C3～B5。",
+      "方案B省略：第61小節、譜面beat=242.500、音高F6（MIDI 89），超出C3～B5。",
+      "方案B省略：第61小節、譜面beat=243.000、音高E6（MIDI 88），超出C3～B5。",
+      "方案B省略：第61小節、譜面beat=243.500、音高D6（MIDI 86），超出C3～B5。",
+      "方案B省略：第62小節、譜面beat=244.000、音高B1（MIDI 35），超出C3～B5。",
+      "方案B省略：第62小節、譜面beat=244.000、音高B2（MIDI 47），超出C3～B5。",
+      "方案B省略：第62小節、譜面beat=245.500、音高D6（MIDI 86），超出C3～B5。",
+      "方案B省略：第62小節、譜面beat=246.000、音高D6（MIDI 86），超出C3～B5。",
+      "方案B省略：第62小節、譜面beat=246.500、音高E6（MIDI 88），超出C3～B5。",
+      "方案B省略：第62小節、譜面beat=247.000、音高F6（MIDI 89），超出C3～B5。",
+      "方案B省略：第62小節、譜面beat=247.500、音高E6（MIDI 88），超出C3～B5。",
+      "方案B省略：第63小節、譜面beat=248.000、音高A1（MIDI 33），超出C3～B5。",
+      "方案B省略：第63小節、譜面beat=248.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第63小節、譜面beat=249.000、音高C6（MIDI 84），超出C3～B5。",
+      "方案B省略：第63小節、譜面beat=249.500、音高C6（MIDI 84），超出C3～B5。",
+      "方案B省略：第63小節、譜面beat=250.500、音高D6（MIDI 86），超出C3～B5。",
+      "方案B省略：第63小節、譜面beat=251.500、音高E6（MIDI 88），超出C3～B5。",
+      "方案B省略：第64小節、譜面beat=252.000、音高F2（MIDI 41），超出C3～B5。",
+      "方案B省略：第64小節、譜面beat=252.500、音高D6（MIDI 86），超出C3～B5。",
+      "方案B省略：第64小節、譜面beat=253.500、音高C6（MIDI 84），超出C3～B5。",
+      "方案B省略：第64小節、譜面beat=254.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第65小節、譜面beat=256.000、音高C2（MIDI 36），超出C3～B5。",
+      "方案B省略：第66小節、譜面beat=260.000、音高B2（MIDI 47），超出C3～B5。",
+      "方案B省略：第67小節、譜面beat=264.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第68小節、譜面beat=268.000、音高F2（MIDI 41），超出C3～B5。",
+      "方案B省略：第68小節、譜面beat=270.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第69小節、譜面beat=272.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第70小節、譜面beat=276.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第71小節、譜面beat=280.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第72小節、譜面beat=284.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第73小節、譜面beat=288.000、音高C2（MIDI 36），超出C3～B5。",
+      "方案B省略：第74小節、譜面beat=292.000、音高B2（MIDI 47），超出C3～B5。",
+      "方案B省略：第75小節、譜面beat=296.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第76小節、譜面beat=300.000、音高F2（MIDI 41），超出C3～B5。",
+      "方案B省略：第76小節、譜面beat=302.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第77小節、譜面beat=304.000、音高C2（MIDI 36），超出C3～B5。",
+      "方案B省略：第78小節、譜面beat=308.000、音高B2（MIDI 47），超出C3～B5。",
+      "方案B省略：第79小節、譜面beat=312.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第80小節、譜面beat=316.000、音高F2（MIDI 41），超出C3～B5。",
+      "方案B省略：第80小節、譜面beat=318.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第86小節、譜面beat=340.000、音高B2（MIDI 47），超出C3～B5。",
+      "方案B省略：第87小節、譜面beat=344.000、音高A2（MIDI 45），超出C3～B5。",
+      "方案B省略：第88小節、譜面beat=348.000、音高F2（MIDI 41），超出C3～B5。",
+      "方案B省略：第88小節、譜面beat=350.000、音高G2（MIDI 43），超出C3～B5。",
+      "方案B省略：第89小節、譜面beat=352.000、音高C2（MIDI 36），超出C3～B5。",
+      "同鍵重疊截短：第9小節，中1，譜面beat=32.000，原JSON length=3.540230，調整後length=2.528736；下一次按鍵原譜beat=34.500。",
+      "同鍵重疊截短：第10小節，中1，譜面beat=36.000，原JSON length=4.045977，調整後length=2.528736；下一次按鍵原譜beat=38.500。",
+      "同鍵重疊截短：第11小節，中5，譜面beat=41.500，原JSON length=1.011494，調整後length=0.505747；下一次按鍵原譜beat=42.000。",
+      "同鍵重疊截短：第14小節，中5，譜面beat=55.500，原JSON length=2.528736，調整後length=2.022989；下一次按鍵原譜beat=57.500。",
+      "同鍵重疊截短：第15小節，中5，譜面beat=57.500，原JSON length=1.011494，調整後length=0.505747；下一次按鍵原譜beat=58.000。",
+      "同鍵重疊截短：第31小節，中3，譜面beat=120.000，原JSON length=2.528736，調整後length=1.517241；下一次按鍵原譜beat=121.500。",
+      "同鍵重疊截短：第32小節，中3，譜面beat=124.000，原JSON length=2.528736，調整後length=1.517241；下一次按鍵原譜beat=125.500。",
+      "同鍵重疊截短：第33小節，中5，譜面beat=129.500，原JSON length=1.011494，調整後length=0.505747；下一次按鍵原譜beat=130.000。",
+      "同鍵重疊截短：第36小節，中5，譜面beat=143.500，原JSON length=2.528736，調整後length=2.022989；下一次按鍵原譜beat=145.500。",
+      "同鍵重疊截短：第37小節，中5，譜面beat=145.500，原JSON length=1.011494，調整後length=0.505747；下一次按鍵原譜beat=146.000。",
+      "同鍵重疊截短：第57小節，低6，譜面beat=224.000，原JSON length=1.517241，調整後length=1.011494；下一次按鍵原譜beat=225.000。",
+      "同鍵重疊截短：第64小節，中5，譜面beat=255.500，原JSON length=2.022989，調整後length=1.770115；下一次按鍵原譜beat=257.250。",
+      "同鍵重疊截短：第69小節，中3，譜面beat=272.000，原JSON length=2.022989，調整後length=1.517241；下一次按鍵原譜beat=273.500。",
+      "同鍵重疊截短：第80小節，高1，譜面beat=319.500，原JSON length=2.022989，調整後length=1.517241；下一次按鍵原譜beat=321.000。"
+    ],
+    "events": [
+      {
+        "key": "中1",
+        "beat": 0,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 0.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 1,
+        "length": 3,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 1.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 2,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 2.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 3,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 3.5,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 4,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 4.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 5,
+        "length": 3,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 5.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 6,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 6.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 7,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 7.5,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 8,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 8.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 9,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 9,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 9.5,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 10,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 10.5,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 11,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 11.5,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 12,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 12.5,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 13,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 13.5,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 14,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 14.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 15,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 15.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 15.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 16,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 16,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 16.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 17,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 17.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 18,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 18,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 18.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 18.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 19,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 19,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 19.5,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 20.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 21,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 21.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 22,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 22,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 22.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 22.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 23,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 23,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 23.5,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 24.5,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 25,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 25.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 25.5,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 26,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 26.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 27,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 27,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 27.5,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 28.5,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 29,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 29,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 29.5,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 30.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 31,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 31.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 32,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": "同鍵重疊：前音依使用者授權截短；詳見issues。"
+      },
+      {
+        "key": "低3",
+        "beat": 32.505747126,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 33.011494253,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 33.517241379,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 33.517241379,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 34.528735632,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 35.540229885,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 36.045977011,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": "同鍵重疊：前音依使用者授權截短；詳見issues。"
+      },
+      {
+        "key": "低3",
+        "beat": 36.551724138,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 37.057471264,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 37.563218391,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 37.563218391,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 38.574712644,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 40.091954023,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 40.597701149,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 41.103448276,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 41.609195402,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 41.609195402,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 41.609195402,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": "同鍵重疊：前音依使用者授權截短；詳見issues。"
+      },
+      {
+        "key": "中5",
+        "beat": 42.114942529,
+        "length": 2.022988506,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 42.620689655,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 43.126436782,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 43.632183908,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 44.643678161,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 44.643678161,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 45.149425287,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 45.655172414,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 45.655172414,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 45.655172414,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 46.16091954,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 46.666666667,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 47.172413793,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 47.67816092,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 47.931034483,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 48.183908046,
+        "length": 3.034482759,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 48.689655172,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 49.195402299,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 49.701149425,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 49.701149425,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 50.712643678,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 51.218390805,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 51.218390805,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 51.724137931,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 51.724137931,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 52.229885057,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 52.735632184,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 52.735632184,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 53.24137931,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 53.747126437,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 53.747126437,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 53.747126437,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 54.75862069,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 55.264367816,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 55.264367816,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 55.770114943,
+        "length": 2.022988505,
+        "enabled": true,
+        "warning": "同鍵重疊：前音依使用者授權截短；詳見issues。"
+      },
+      {
+        "key": "低1",
+        "beat": 56.275862069,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 56.781609195,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 57.287356322,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 57.793103448,
+        "length": 2.022988506,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 57.793103448,
+        "length": 2.022988506,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 57.793103448,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": "同鍵重疊：前音依使用者授權截短；詳見issues。"
+      },
+      {
+        "key": "中5",
+        "beat": 58.298850575,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 58.804597701,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 59.310344828,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 59.816091954,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 59.816091954,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 60.827586207,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 60.827586207,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 61.333333333,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 61.83908046,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 61.83908046,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 61.83908046,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 62.344827586,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 62.850574713,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 63.356321839,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 63.862068966,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 64.114942529,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 64.367816092,
+        "length": 3.034482759,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 64.873563218,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 65.379310345,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 65.885057471,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 65.885057471,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 66.896551724,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 67.402298851,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 67.402298851,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 67.908045977,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 67.908045977,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 68.413793103,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 68.91954023,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 68.91954023,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 69.425287356,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 69.931034483,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 69.931034483,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 69.931034483,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 70.942528736,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 71.448275862,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 71.448275862,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 71.954022989,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 71.954022989,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 72.965517241,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 73.471264368,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 73.977011494,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 73.977011494,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 74.482758621,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 74.988505747,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 74.988505747,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 75.494252874,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 75.494252874,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 76,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 76,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 77.011494253,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 77.517241379,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 77.517241379,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 78.022988506,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 78.022988506,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 78.022988506,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 78.022988506,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 79.034482759,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 79.287356322,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 79.540229885,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 79.540229885,
+        "length": 3.034482759,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 80.045977011,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 81.057471264,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 81.563218391,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 82.068965517,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 82.068965517,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 82.574712644,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 83.08045977,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 83.08045977,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 83.586206897,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 83.586206897,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 84.091954023,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 84.091954023,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 85.103448276,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 85.609195402,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 85.609195402,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 86.114942529,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 86.114942529,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 86.114942529,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 86.114942529,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 87.126436782,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 87.379310345,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 87.632183908,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 87.632183908,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 87.632183908,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 88.137931034,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 88.643678161,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 89.149425287,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 89.655172414,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 90.16091954,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 90.16091954,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 90.666666667,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 90.666666667,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 90.666666667,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 91.172413793,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 91.67816092,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 91.67816092,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 91.67816092,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 92.183908046,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 92.183908046,
+        "length": 2.022988506,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 93.195402299,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 93.701149425,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 94.206896552,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 94.206896552,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 94.712643678,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 94.712643678,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 94.712643678,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 95.218390805,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 95.218390805,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 95.724137931,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 95.724137931,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 95.724137931,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 96.229885057,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 96.229885057,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 97.24137931,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 97.747126437,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 97.747126437,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 98.252873563,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 98.252873563,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 98.252873563,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 98.75862069,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 99.264367816,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 99.264367816,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 99.770114943,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 99.770114943,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 100.275862069,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 100.275862069,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 101.287356322,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 101.287356322,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 101.793103448,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 101.793103448,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 102.298850575,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 103.310344828,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 103.310344828,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 103.816091954,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 103.816091954,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 103.816091954,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 104.32183908,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 104.32183908,
+        "length": 2.022988506,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 104.827586207,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 105.333333333,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 105.83908046,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 106.344827586,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 106.344827586,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 106.344827586,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 106.850574713,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 106.850574713,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 106.850574713,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 106.850574713,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 107.356321839,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 107.356321839,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 107.862068966,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 107.862068966,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 107.862068966,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 107.862068966,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 108.367816092,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 108.367816092,
+        "length": 2.022988506,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 108.367816092,
+        "length": 2.022988506,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 109.379310345,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 109.885057471,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 110.390804598,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 110.390804598,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 110.390804598,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 110.896551724,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 110.896551724,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 110.896551724,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 111.402298851,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 111.402298851,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 111.402298851,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 111.908045977,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 111.908045977,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 111.908045977,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 112.413793103,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 112.413793103,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 112.413793103,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 113.425287356,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 113.931034483,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 113.931034483,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 113.931034483,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 114.436781609,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 114.436781609,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 114.436781609,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 114.942528736,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 115.448275862,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 115.448275862,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 115.954022989,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 116.459770115,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 116.459770115,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 116.459770115,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 117.471264368,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 117.471264368,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 117.471264368,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 117.977011494,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 117.977011494,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 118.482758621,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 118.482758621,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 119.494252874,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 119.494252874,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 119.494252874,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 120,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 120,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 120,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 120.505747126,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 120.505747126,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 121.011494253,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": "同鍵重疊：前音依使用者授權截短；詳見issues。"
+      },
+      {
+        "key": "高1",
+        "beat": 121.011494253,
+        "length": 4.045977011,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 121.517241379,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 122.022988506,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 122.528735632,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 122.528735632,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 123.540229885,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 124.551724138,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 125.057471264,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": "同鍵重疊：前音依使用者授權截短；詳見issues。"
+      },
+      {
+        "key": "高1",
+        "beat": 125.057471264,
+        "length": 4.045977011,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 125.563218391,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 126.068965517,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 126.574712644,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 126.574712644,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 127.586206897,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 129.103448276,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 129.609195402,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 130.114942529,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 130.620689655,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 130.620689655,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 130.620689655,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": "同鍵重疊：前音依使用者授權截短；詳見issues。"
+      },
+      {
+        "key": "中5",
+        "beat": 131.126436782,
+        "length": 2.022988506,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 131.632183908,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 132.137931034,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 132.643678161,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 133.655172414,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 133.655172414,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 134.16091954,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 134.666666667,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 134.666666667,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 134.666666667,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 135.172413793,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 135.67816092,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 136.183908046,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 136.689655172,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 136.942528736,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 137.195402299,
+        "length": 3.034482758,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 137.701149425,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 138.206896552,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 138.712643678,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 138.712643678,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 139.724137931,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 140.229885057,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 140.229885057,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 140.735632184,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 140.735632184,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 141.24137931,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 141.747126437,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 141.747126437,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 142.252873563,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 142.75862069,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 142.75862069,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 142.75862069,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 143.770114943,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 144.275862069,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 144.275862069,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 144.781609195,
+        "length": 2.022988506,
+        "enabled": true,
+        "warning": "同鍵重疊：前音依使用者授權截短；詳見issues。"
+      },
+      {
+        "key": "低1",
+        "beat": 145.287356322,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 145.793103448,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 146.298850575,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 146.804597701,
+        "length": 2.022988506,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 146.804597701,
+        "length": 2.022988506,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 146.804597701,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": "同鍵重疊：前音依使用者授權截短；詳見issues。"
+      },
+      {
+        "key": "中5",
+        "beat": 147.310344828,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 147.816091954,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 148.32183908,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 148.827586207,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 148.827586207,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 149.83908046,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 149.83908046,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 150.344827586,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 150.850574713,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 150.850574713,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 150.850574713,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 151.356321839,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 151.862068966,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 152.367816092,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 152.873563218,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 153.126436782,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 153.379310345,
+        "length": 3.034482758,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 153.885057471,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 154.390804598,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 154.896551724,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 154.896551724,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 155.908045977,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 156.413793103,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 156.413793103,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 156.91954023,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 156.91954023,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 157.425287356,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 157.931034483,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 157.931034483,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 158.436781609,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 158.942528736,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 158.942528736,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 158.942528736,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 159.954022989,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 160.459770115,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 160.459770115,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 160.965517241,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 160.965517241,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 161.977011494,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 162.482758621,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 162.988505747,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 162.988505747,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 163.494252874,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 164,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 164,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 164.505747126,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 164.505747126,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 165.011494253,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 165.011494253,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 166.022988506,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 166.528735632,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 166.528735632,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 167.034482759,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 167.034482759,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 167.034482759,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 167.034482759,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 168.045977011,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 168.298850575,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 168.551724138,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 168.551724138,
+        "length": 3.034482759,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 169.057471264,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 170.068965517,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 170.574712644,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 171.08045977,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 171.08045977,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 171.586206897,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 172.091954023,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 172.091954023,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 172.597701149,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 172.597701149,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 173.103448276,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 173.103448276,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 174.114942529,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 174.620689655,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 174.620689655,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 175.126436782,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 175.126436782,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 175.126436782,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 175.126436782,
+        "length": 1.011494252,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 176.137931034,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 176.390804598,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 176.643678161,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 176.643678161,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 176.643678161,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 177.149425287,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 177.655172414,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 178.16091954,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 178.666666667,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 179.172413793,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 179.172413793,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 179.67816092,
+        "length": 1.011494252,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 179.67816092,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 179.67816092,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 180.183908046,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 180.689655172,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 180.689655172,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 180.689655172,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 181.195402299,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 181.195402299,
+        "length": 2.022988506,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 182.206896552,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 182.712643678,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 183.218390805,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 183.218390805,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 183.724137931,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 183.724137931,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 183.724137931,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 184.229885057,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 184.229885057,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 184.735632184,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 184.735632184,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 184.735632184,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 185.24137931,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 185.24137931,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 186.252873563,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 186.75862069,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 186.75862069,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 187.264367816,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 187.264367816,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 187.264367816,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 187.770114943,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 188.275862069,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 188.275862069,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 188.781609195,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 188.781609195,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 189.287356322,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 189.287356322,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 190.298850575,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 190.298850575,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 190.804597701,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 190.804597701,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 191.310344828,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 192.32183908,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 192.32183908,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 192.827586207,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 192.827586207,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 192.827586207,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 193.333333333,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 193.333333333,
+        "length": 2.022988506,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 193.83908046,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 194.344827586,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 194.850574713,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 195.356321839,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 195.356321839,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 195.356321839,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 195.862068966,
+        "length": 1.011494252,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 195.862068966,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 195.862068966,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 195.862068966,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 196.367816092,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 196.367816092,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 196.873563218,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 196.873563218,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 196.873563218,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 196.873563218,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 197.379310345,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 197.379310345,
+        "length": 2.022988506,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 197.379310345,
+        "length": 2.022988506,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 198.390804598,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 198.896551724,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 199.402298851,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 199.402298851,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 199.402298851,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 199.908045977,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 199.908045977,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 199.908045977,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 200.413793103,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 200.413793103,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 200.413793103,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 200.91954023,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 200.91954023,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 200.91954023,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 201.425287356,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 201.425287356,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 201.425287356,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 202.436781609,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 202.942528736,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 202.942528736,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 202.942528736,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 203.448275862,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 203.448275862,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 203.448275862,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 203.954022989,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 204.459770115,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 204.459770115,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 204.965517241,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 205.471264368,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 205.471264368,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 205.471264368,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 206.482758621,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 206.482758621,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 206.482758621,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 206.988505747,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 206.988505747,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 207.494252874,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 207.494252874,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 208.505747126,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 208.505747126,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 208.505747126,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 209.011494253,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 209.011494253,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 209.011494253,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 209.011494253,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 209.517241379,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 209.517241379,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 210.022988506,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 210.022988506,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 210.022988506,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 210.022988506,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 210.022988506,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 210.528735632,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 211.034482759,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 211.540229885,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 211.540229885,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 211.540229885,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 211.540229885,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 211.540229885,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 212.551724138,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 212.551724138,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 213.057471264,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 213.057471264,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 213.563218391,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 213.563218391,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 214.068965517,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 214.068965517,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 214.574712644,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 215.08045977,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 215.08045977,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 215.586206897,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 215.586206897,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 215.586206897,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 215.586206897,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 216.597701149,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 217.103448276,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 217.103448276,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 217.103448276,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 217.609195402,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 218.114942529,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 218.114942529,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 218.114942529,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 218.620689655,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 219.126436782,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 219.632183908,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 219.632183908,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 220.137931034,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 220.137931034,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 220.643678161,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 220.643678161,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 221.149425287,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 221.149425287,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 221.149425287,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 221.655172414,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 221.655172414,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 222.16091954,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 222.16091954,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 222.413793103,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 222.666666667,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 222.666666667,
+        "length": 3.540229885,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 223.172413793,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 223.67816092,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 223.67816092,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 223.67816092,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 224.689655172,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 225.195402299,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 225.701149425,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 226.206896552,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": "同鍵重疊：前音依使用者授權截短；詳見issues。"
+      },
+      {
+        "key": "中1",
+        "beat": 226.206896552,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 226.206896552,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 226.206896552,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 226.712643678,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 227.218390805,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 227.724137931,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 227.724137931,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 227.724137931,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 227.724137931,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 228.735632184,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 228.735632184,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 229.24137931,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 229.24137931,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 229.747126437,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 229.747126437,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 230.252873563,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 230.252873563,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 230.75862069,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 231.264367816,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 231.264367816,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 231.770114943,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 231.770114943,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 231.770114943,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 231.770114943,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 232.781609195,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 233.287356322,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 233.287356322,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 233.287356322,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 233.793103448,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 234.298850575,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 234.298850575,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 234.804597701,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 235.310344828,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 235.310344828,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 235.310344828,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 235.816091954,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 235.816091954,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 235.816091954,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 236.827586207,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 237.333333333,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 237.333333333,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 237.333333333,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 237.333333333,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 237.83908046,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 237.83908046,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 237.83908046,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 238.344827586,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 238.344827586,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 238.344827586,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 238.344827586,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 239.356321839,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 239.609195402,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 239.862068966,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 240.114942529,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 240.480091954,
+        "length": 0.130482759,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 240.592367816,
+        "length": 0.130482759,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 240.704643678,
+        "length": 0.130482759,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 240.81691954,
+        "length": 0.130482759,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 240.930206897,
+        "length": 0.130482759,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 241.042482759,
+        "length": 0.130482759,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 241.154758621,
+        "length": 0.130482759,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 241.267034483,
+        "length": 0.130482759,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 241.379310345,
+        "length": 0.130482759,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 241.491586207,
+        "length": 0.130482759,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 241.603862069,
+        "length": 0.130482759,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 241.716137931,
+        "length": 0.130482759,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 241.828413793,
+        "length": 0.130482759,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高6",
+        "beat": 241.941701149,
+        "length": 0.130482759,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 242.390804598,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 242.390804598,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 242.896551724,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 243.402298851,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 243.908045977,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 243.908045977,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 244.413793103,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 244.413793103,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 244.413793103,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 244.413793103,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 244.91954023,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 244.91954023,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 245.425287356,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 245.425287356,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 245.425287356,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 245.931034483,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 245.931034483,
+        "length": 2.022988506,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 246.942528736,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 247.448275862,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 247.954022989,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 247.954022989,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 248.459770115,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 248.459770115,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 248.459770115,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 248.965517241,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 248.965517241,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 249.471264368,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 249.471264368,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 249.471264368,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 249.977011494,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 249.977011494,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 250.988505747,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 251.494252874,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 251.494252874,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 252,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 252,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 252,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 252.505747126,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 253.011494253,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 253.011494253,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 253.517241379,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 253.517241379,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 254.022988506,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 254.022988506,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 255.034482759,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 255.034482759,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 255.540229885,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 255.540229885,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 256.045977011,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 256.045977011,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 257.057471264,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 257.057471264,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高7",
+        "beat": 257.057471264,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 257.563218391,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 257.563218391,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 257.563218391,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高6",
+        "beat": 257.563218391,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 258.068965517,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 258.068965517,
+        "length": 1.770114943,
+        "enabled": true,
+        "warning": "同鍵重疊：前音依使用者授權截短；詳見issues。"
+      },
+      {
+        "key": "高5",
+        "beat": 258.068965517,
+        "length": 2.022988506,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 258.574712644,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 259.08045977,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 259.333333333,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 259.586206897,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 259.83908046,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 260.091954023,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 260.091954023,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 260.091954023,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 260.344827586,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 260.344827586,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 260.597701149,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 260.597701149,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 260.597701149,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 260.597701149,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 261.103448276,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 261.103448276,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 261.103448276,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 261.609195402,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 261.609195402,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 261.609195402,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 261.609195402,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 262.114942529,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 262.114942529,
+        "length": 2.022988505,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 262.114942529,
+        "length": 2.022988505,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 263.126436782,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 263.632183908,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 264.137931034,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 264.137931034,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 264.137931034,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 264.390804598,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 264.390804598,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 264.643678161,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 264.643678161,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 264.643678161,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 264.643678161,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 265.149425287,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 265.149425287,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 265.149425287,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 265.655172414,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 265.655172414,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 265.655172414,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 265.655172414,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 266.16091954,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 266.16091954,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 266.16091954,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 267.172413793,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 267.67816092,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 267.67816092,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 267.67816092,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 268.183908046,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 268.183908046,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 268.183908046,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 268.689655172,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 269.195402299,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 269.195402299,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 269.701149425,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 270.206896552,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 270.206896552,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 270.206896552,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 271.218390805,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 271.218390805,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 271.218390805,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 271.724137931,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 271.724137931,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 272.229885057,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 272.229885057,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 273.24137931,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 273.24137931,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 273.24137931,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 273.747126437,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 273.747126437,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 273.747126437,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 274.252873563,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 274.252873563,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 274.75862069,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": "同鍵重疊：前音依使用者授權截短；詳見issues。"
+      },
+      {
+        "key": "高1",
+        "beat": 274.75862069,
+        "length": 2.022988505,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 275.264367816,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 275.770114943,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 276.275862069,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 276.275862069,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 276.781609195,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 277.287356322,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 277.287356322,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 277.793103448,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 277.793103448,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 278.298850575,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 278.298850575,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 279.310344828,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 279.816091954,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 279.816091954,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 280.32183908,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 280.32183908,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 280.32183908,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 280.32183908,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 281.333333333,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 281.586206897,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 281.83908046,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 281.83908046,
+        "length": 3.034482759,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 282.344827586,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 283.356321839,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 283.862068966,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 284.367816092,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 284.367816092,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 284.873563218,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 285.379310345,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 285.379310345,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 285.885057471,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 285.885057471,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 286.390804598,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 286.390804598,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 287.402298851,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 287.908045977,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 287.908045977,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 288.413793103,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 288.413793103,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 288.413793103,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 288.413793103,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 289.425287356,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 289.67816092,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 289.931034483,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 289.931034483,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 289.931034483,
+        "length": 2.528735632,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 290.436781609,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 290.942528736,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 291.448275862,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 291.954022989,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 292.459770115,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 292.459770115,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 292.965517241,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 292.965517241,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 292.965517241,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 293.471264368,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 293.977011494,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 293.977011494,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 293.977011494,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 294.482758621,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 294.482758621,
+        "length": 2.022988505,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 295.494252874,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 296,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 296.505747126,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 296.505747126,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 297.011494253,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 297.011494253,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 297.011494253,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 297.517241379,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 297.517241379,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 298.022988506,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 298.022988506,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 298.022988506,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 298.528735632,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 298.528735632,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 299.540229885,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 300.045977011,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 300.045977011,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 300.551724138,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 300.551724138,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 300.551724138,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 301.057471264,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 301.563218391,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 301.563218391,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 302.068965517,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 302.068965517,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 302.574712644,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 302.574712644,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 303.586206897,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 303.586206897,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 304.091954023,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 304.091954023,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 304.597701149,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 305.609195402,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 305.609195402,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 306.114942529,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 306.114942529,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 306.114942529,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 306.620689655,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 306.620689655,
+        "length": 2.022988506,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 307.126436782,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 307.632183908,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 308.137931034,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 308.643678161,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 308.643678161,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 308.643678161,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 309.149425287,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 309.149425287,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 309.149425287,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 309.149425287,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 309.655172414,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 309.655172414,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 310.16091954,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 310.16091954,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 310.16091954,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 310.16091954,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 310.666666667,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 310.666666667,
+        "length": 2.022988505,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 310.666666667,
+        "length": 2.022988505,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 311.67816092,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 312.183908046,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 312.689655172,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 312.689655172,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 312.689655172,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 313.195402299,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 313.195402299,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 313.195402299,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 313.701149425,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 313.701149425,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 313.701149425,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 314.206896552,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 314.206896552,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 314.206896552,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 314.712643678,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 314.712643678,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 314.712643678,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 315.724137931,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 316.229885057,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 316.229885057,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 316.229885057,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 316.735632184,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 316.735632184,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 316.735632184,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 317.24137931,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 317.747126437,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 317.747126437,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 318.252873563,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 318.75862069,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 318.75862069,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 318.75862069,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 319.770114943,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 319.770114943,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 319.770114943,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 320.275862069,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 320.275862069,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 320.781609195,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 320.781609195,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 321.793103448,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 321.793103448,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 321.793103448,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 322.298850575,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 322.298850575,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 322.298850575,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 322.298850575,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 322.804597701,
+        "length": 2.022988506,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 322.804597701,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": "同鍵重疊：前音依使用者授權截短；詳見issues。"
+      },
+      {
+        "key": "中1",
+        "beat": 323.310344828,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 323.816091954,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 324.32183908,
+        "length": 3.034482759,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 324.827586207,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 325.333333333,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 325.83908046,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 326.344827586,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 326.850574713,
+        "length": 2.022988505,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 327.356321839,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 327.862068966,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 328.367816092,
+        "length": 3.034482759,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 328.873563218,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 329.379310345,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 329.885057471,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 330.390804598,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 330.896551724,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 331.402298851,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 331.908045977,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 332.413793103,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 332.413793103,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 332.91954023,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 333.425287356,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 333.931034483,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 334.436781609,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 334.942528736,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 335.448275862,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 335.954022989,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 336.459770115,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 336.965517241,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 337.471264368,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 337.977011494,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 338.482758621,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 338.988505747,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 338.988505747,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 339.494252874,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 339.494252874,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 340,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 340.505747126,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 341.011494253,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 341.517241379,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 341.517241379,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 342.022988506,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 342.022988506,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 342.528735632,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 342.528735632,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 343.034482759,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 343.287356322,
+        "length": 0.252873563,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 343.540229885,
+        "length": 1.517241379,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 344.045977011,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 344.551724138,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 345.057471264,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 345.563218391,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 345.563218391,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 346.068965517,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 346.068965517,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 346.574712644,
+        "length": 1.011494253,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 346.574712644,
+        "length": 0.505747126,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 347.08045977,
+        "length": 1.52900294,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 348.097834804,
+        "length": 1.023255814,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 348.609462711,
+        "length": 0.511627907,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 349.121090617,
+        "length": 0.511627907,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 349.121090617,
+        "length": 1.023255814,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 349.632718524,
+        "length": 1.023255814,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 350.144346431,
+        "length": 1.023255814,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 350.655974338,
+        "length": 1.023255814,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 351.167602245,
+        "length": 1.023255814,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 352.190858059,
+        "length": 1.023255814,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 352.702485966,
+        "length": 1.023255814,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 352.702485966,
+        "length": 1.023255814,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 353.214113873,
+        "length": 1.023255814,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 354.237369687,
+        "length": 0.511627907,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 354.748997594,
+        "length": 0.511627907,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 355.260625501,
+        "length": 0.511627907,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 355.772253408,
+        "length": 5.866666667,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 355.879320075,
+        "length": 5.7596,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 355.987853408,
+        "length": 5.651066667,
+        "enabled": true,
+        "warning": ""
+      }
+    ]
+  }
+}

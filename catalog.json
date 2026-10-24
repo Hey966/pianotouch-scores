@@ -25,6 +25,11 @@
       "id": "album-mvmg8brw-uzhho",
       "name": "林俊傑",
       "artist": "林俊傑&鄧紫棋"
+    },
+    {
+      "id": "album-mvmga36l-vhr0y",
+      "name": "理查•馬克斯",
+      "artist": "Richard Marx"
     }
   ],
   "songs": [
@@ -81,6 +86,15 @@
       "noteCount": 1117,
       "file": "songs/song-mvmg617x-90qj6.pianotouch.json",
       "albumId": "album-mvmg8brw-uzhho"
+    },
+    {
+      "id": "song-mvmg8i1q-28d5d",
+      "title": "Right Here Waiting",
+      "artist": "Richard Marx",
+      "bpm": 88,
+      "noteCount": 1110,
+      "file": "songs/song-mvmg8i1q-28d5d.pianotouch.json",
+      "albumId": "album-mvmga36l-vhr0y"
     }
   ]
 }
