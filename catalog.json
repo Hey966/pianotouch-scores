@@ -1,4 +1,13 @@
 {
   "version": 1,
-  "songs": []
+  "songs": [
+    {
+      "id": "song-mvmetq90-jm9h9",
+      "title": "Beauty And A Beat",
+      "artist": "Jastin Bieber",
+      "bpm": 128,
+      "noteCount": 1279,
+      "file": "songs/song-mvmetq90-jm9h9.pianotouch.json"
+    }
+  ]
 }
