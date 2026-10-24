@@ -1,7 +1,48 @@
 <!doctype html>
 <html lang="zh-Hant">
-<meta charset="utf-8">
-<title>PianoTouch 樂譜庫</title>
-<h1>PianoTouch 樂譜庫</h1>
-<p>線上樂譜準備中。</p>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PianoTouch 樂譜庫</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #101727; color: #f3f6ff; }
+    body { max-width: 700px; margin: 0 auto; padding: 48px 20px; }
+    h1 { margin-bottom: 8px; }
+    p { color: #b9c7df; }
+    ul { list-style: none; padding: 0; }
+    li { margin: 12px 0; padding: 18px; border-radius: 14px; background: #1c2941; }
+    small { display: block; margin-top: 6px; color: #b9c7df; }
+    a { color: #96d9ff; }
+  </style>
+</head>
+<body>
+  <h1>PianoTouch 樂譜庫</h1>
+  <p>已發布的樂譜會在 PianoTouch App 的線上樂譜庫顯示，使用者可直接在 App 內加入歌曲。</p>
+  <ul id="songs"><li>正在讀取歌曲清單…</li></ul>
+  <p><small>資料來源：<a href="catalog.json">catalog.json</a></small></p>
+  <script>
+    fetch("catalog.json", { cache: "no-store" })
+      .then(response => { if (!response.ok) throw new Error("讀取失敗"); return response.json(); })
+      .then(catalog => {
+        if (catalog.version !== 1 || !Array.isArray(catalog.songs)) throw new Error("格式錯誤");
+        const list = document.getElementById("songs");
+        list.replaceChildren();
+        if (catalog.songs.length === 0) {
+          const item = document.createElement("li");
+          item.textContent = "目前沒有已發布的歌曲。";
+          list.append(item);
+        }
+        for (const song of catalog.songs) {
+          const item = document.createElement("li");
+          const title = document.createElement("strong");
+          title.textContent = song.title;
+          const details = document.createElement("small");
+          details.textContent = [song.artist, song.bpm + " BPM", song.noteCount + " 個音符"].join(" · ");
+          item.append(title, details);
+          list.append(item);
+        }
+      })
+      .catch(() => { document.getElementById("songs").textContent = "歌曲清單暫時無法讀取。"; });
+  </script>
+</body>
 </html>
