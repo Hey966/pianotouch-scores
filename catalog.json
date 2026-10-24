@@ -184,6 +184,15 @@
       "noteCount": 1710,
       "file": "songs/song-mvmozc9a-eero9.pianotouch.json",
       "albumId": "album-mvmmkpu2-qxh57"
+    },
+    {
+      "id": "song-mvmq4fhk-14nsq",
+      "title": "修煉愛情",
+      "artist": "JJ Lin",
+      "bpm": 68,
+      "noteCount": 1034,
+      "file": "songs/song-mvmq4fhk-14nsq.pianotouch.json",
+      "albumId": "album-mvmmkpu2-qxh57"
     }
   ]
 }
