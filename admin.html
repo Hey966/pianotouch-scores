@@ -26,12 +26,14 @@
     <div id="songs"></div>
     <section id="editor" class="panel hidden">
       <h2 id="editorHeading">新增歌曲</h2>
-      <p class="hint">可匯入 PianoTouch 的 .pianotouch.json 檔，再修改音符。開始拍與長度以「拍」為單位。</p>
+      <p class="hint" id="editorHint">選擇 PianoTouch 樂譜 JSON，確認歌曲名稱與作者後即可上傳。</p>
       <label for="importFile">匯入樂譜 JSON</label><input id="importFile" type="file" accept=".json,application/json">
       <div class="row"><div><label for="title">歌曲名稱</label><input id="title" maxlength="120"></div><div><label for="artist">作者／演奏者</label><input id="artist" maxlength="80"></div></div>
+      <div id="advancedFields" class="hidden">
       <div class="row"><div><label for="bpm">BPM</label><input id="bpm" type="number" min="20" max="300" step="0.01"></div><div><label for="songId">歌曲 ID（自動產生）</label><input id="songId" readonly></div></div>
       <h3>音符</h3><div id="notes"></div><button id="addNote" type="button">＋ 新增音符</button>
-      <div><button id="save" class="primary" type="button">儲存到線上樂譜庫</button><button id="cancel" type="button">取消編輯</button></div>
+      </div>
+      <div><button id="save" class="primary" type="button">上傳歌曲</button><button id="cancel" type="button">取消編輯</button></div>
     </section>
   </main>
 </body>
