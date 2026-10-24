@@ -27,7 +27,6 @@
       headers: {
         'Accept': 'application/vnd.github+json',
         'Authorization': `Bearer ${token}`,
-        'X-GitHub-Api-Version': '2022-11-28',
         ...(body === undefined ? {} : {'Content-Type': 'application/json'})
       },
       body: body === undefined ? undefined : JSON.stringify(body)
@@ -42,8 +41,10 @@
   }
   async function readFile(path) {
     const response = await api('GET', `/contents/${path}?ref=${branch}`);
-    if (response.type !== 'file' || typeof response.content !== 'string') throw new Error('找不到樂譜檔');
-    return JSON.parse(decodeBase64(response.content));
+    if (response.type !== 'file') throw new Error('找不到樂譜檔');
+    const blob = response.content ? response : await api('GET', `/git/blobs/${response.sha}`);
+    if (blob.encoding !== 'base64' || !blob.content) throw new Error('無法讀取樂譜檔');
+    return JSON.parse(decodeBase64(blob.content));
   }
   async function loadCatalog() {
     const value = await readFile('catalog.json');
