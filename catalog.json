@@ -1,5 +1,21 @@
 {
   "version": 1,
-  "albums": [],
-  "songs": []
+  "albums": [
+    {
+      "id": "album-mvmfk651-pos0n",
+      "name": "小賈斯汀",
+      "artist": "Justin Bieber"
+    }
+  ],
+  "songs": [
+    {
+      "id": "song-mvmfj1k5-pprim",
+      "title": "Beauty And A Beat",
+      "artist": "Justin Bieber",
+      "bpm": 128,
+      "noteCount": 1279,
+      "file": "songs/song-mvmfj1k5-pprim.pianotouch.json",
+      "albumId": "album-mvmfk651-pos0n"
+    }
+  ]
 }
