@@ -30,6 +30,11 @@
       "id": "album-mvmga36l-vhr0y",
       "name": "理查•馬克斯",
       "artist": "Richard Marx"
+    },
+    {
+      "id": "album-mvmgce9l-7qocv",
+      "name": "碧碧•雷克薩",
+      "artist": "Bebe Rexha"
     }
   ],
   "songs": [
@@ -95,6 +100,15 @@
       "noteCount": 1110,
       "file": "songs/song-mvmg8i1q-28d5d.pianotouch.json",
       "albumId": "album-mvmga36l-vhr0y"
+    },
+    {
+      "id": "song-mvmgata2-9zyhb",
+      "title": "Meant to Be",
+      "artist": "Bebe Rexha",
+      "bpm": 77,
+      "noteCount": 559,
+      "file": "songs/song-mvmgata2-9zyhb.pianotouch.json",
+      "albumId": "album-mvmgce9l-7qocv"
     }
   ]
 }
