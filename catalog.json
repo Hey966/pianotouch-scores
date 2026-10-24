@@ -15,6 +15,11 @@
       "id": "album-mvmg4wxj-q4x8q",
       "name": "美國邁阿密",
       "artist": "Bad Style"
+    },
+    {
+      "id": "album-mvmg5mk2-slx53",
+      "name": "周杰倫",
+      "artist": "周杰倫"
     }
   ],
   "songs": [
@@ -53,6 +58,15 @@
       "noteCount": 2352,
       "file": "songs/song-mvmg2tcn-l53ut.pianotouch.json",
       "albumId": "album-mvmg4wxj-q4x8q"
+    },
+    {
+      "id": "song-mvmg55mn-rg9uf",
+      "title": "晴天",
+      "artist": "周杰倫",
+      "bpm": 68,
+      "noteCount": 973,
+      "file": "songs/song-mvmg55mn-rg9uf.pianotouch.json",
+      "albumId": "album-mvmg5mk2-slx53"
     }
   ]
 }
