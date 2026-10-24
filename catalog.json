@@ -139,6 +139,15 @@
       "bpm": 165,
       "noteCount": 825,
       "file": "songs/song-mvmgm0xe-5pcj7.pianotouch.json"
+    },
+    {
+      "id": "song-mvmm8zun-778n2",
+      "title": "Baby",
+      "artist": "Justin Bieber",
+      "bpm": 132,
+      "noteCount": 969,
+      "file": "songs/song-mvmm8zun-778n2.pianotouch.json",
+      "albumId": "album-mvmfk651-pos0n"
     }
   ]
 }
