@@ -153,6 +153,15 @@
       "noteCount": 969,
       "file": "songs/song-mvmm8zun-778n2.pianotouch.json",
       "albumId": "album-mvmfk651-pos0n"
+    },
+    {
+      "id": "song-mvmn8isb-zr9ba",
+      "title": "STAY",
+      "artist": "Justin Bieber",
+      "bpm": 170,
+      "noteCount": 640,
+      "file": "songs/song-mvmn8isb-zr9ba.pianotouch.json",
+      "albumId": "album-mvmfk651-pos0n"
     }
   ]
 }
