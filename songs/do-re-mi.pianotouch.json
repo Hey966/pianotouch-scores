@@ -1,0 +1,35 @@
+{
+  "format": "pianotouch-score",
+  "version": 1,
+  "score": {
+    "title": "範例：Do Re Mi",
+    "bpm": 60,
+    "reviewed": false,
+    "sourceImage": "",
+    "endBeat": 3,
+    "issues": [],
+    "events": [
+      {
+        "key": "中1",
+        "beat": 0,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 1,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 2,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      }
+    ]
+  }
+}
