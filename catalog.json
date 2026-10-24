@@ -157,6 +157,15 @@
       "noteCount": 640,
       "file": "songs/song-mvmn8isb-zr9ba.pianotouch.json",
       "albumId": "album-mvmfk651-pos0n"
+    },
+    {
+      "id": "song-mvmojg9c-mgkwj",
+      "title": "Ghost - Justin Bieber（方案 E）",
+      "artist": "Justin Bieber",
+      "bpm": 160,
+      "noteCount": 473,
+      "file": "songs/song-mvmojg9c-mgkwj.pianotouch.json",
+      "albumId": "album-mvmfk651-pos0n"
     }
   ]
 }

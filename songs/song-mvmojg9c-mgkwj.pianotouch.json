@@ -1,0 +1,3356 @@
+{
+  "format": "pianotouch-score",
+  "version": 1,
+  "score": {
+    "title": "Ghost - Justin Bieber（方案 E）",
+    "bpm": 160,
+    "reviewed": false,
+    "sourceImage": "",
+    "endBeat": 388,
+    "issues": [
+      "資料來源：Justin Bieber《Ghost》，EveryonePiano 編曲編號 0012893。樂譜：https://www.everyonepiano.com/Music-12893-Ghost-Justin-Bieber.html；對應 EOP 版本：https://github.com/hsdllcw/everyonepiano-music-database/tree/main/流行/Ghost-Justin%20Bieber。此為公開編曲資料，並非原唱錄音逐音還原。",
+      "原始 EOP：格式版本 201，拍號 4/4，160 BPM，986 筆 MIDI-style 按下／放開事件，配對還原 493 筆音符；按鍵碼依 EOP 映射表換算；所有配對皆完整。",
+      "PianoTouch 只有 C3～B5（MIDI 48～83），依方案 E 對音域外音符按最少八度數折返；折返與來源原音衝突時，優先保留原音。",
+      "時間換算：將 EOP 固定前置 2000 毫秒扣除；以 160 BPM 換算 beat/length。EOP 音符放開事件原本會提前約 50 毫秒，此處補回 50 毫秒作為估計原記譜時值。時間精度 0.001 拍。",
+      "此版本第一個音符發生於 beat 1，依來源保留前置休止時間；未將所有音符強制移到 beat 0。",
+      "reviewed=false：已完成來源事件結構檢查與匯入檔完整性檢查，但未逐音與五線譜人工核對。",
+      "省略 beat 24 的 F2→F3／低4，原因：折返後與原始音高 F3 於 beat 24～28 重疊，優先保留原音。",
+      "省略 beat 120 的 F2→F3／低4，原因：折返後與原始音高 F3 於 beat 120～124 重疊，優先保留原音。",
+      "省略 beat 152 的 F2→F3／低4，原因：折返後與原始音高 F3 於 beat 152～156 重疊，優先保留原音。",
+      "省略 beat 16 的 G2→G3／低5，原因：折返後與原始音高 G3 於 beat 16～20 重疊，優先保留原音。",
+      "省略 beat 47 的 G2→G3／低5，原因：折返後與原始音高 G3 於 beat 47～52 重疊，優先保留原音。",
+      "省略 beat 63 的 G2→G3／低5，原因：折返後與原始音高 G3 於 beat 63～68 重疊，優先保留原音。",
+      "省略 beat 79 的 G2→G3／低5，原因：折返後與原始音高 G3 於 beat 79～84 重疊，優先保留原音。",
+      "省略 beat 112 的 G2→G3／低5，原因：折返後與原始音高 G3 於 beat 112～116 重疊，優先保留原音。",
+      "省略 beat 144 的 G2→G3／低5，原因：折返後與原始音高 G3 於 beat 144～148 重疊，優先保留原音。",
+      "省略 beat 175 的 G2→G3／低5，原因：折返後與原始音高 G3 於 beat 175～180 重疊，優先保留原音。",
+      "省略 beat 191 的 G2→G3／低5，原因：折返後與原始音高 G3 於 beat 191～196 重疊，優先保留原音。",
+      "省略 beat 207 的 G2→G3／低5，原因：折返後與原始音高 G3 於 beat 207～212 重疊，優先保留原音。",
+      "省略 beat 304 的 G2→G3／低5，原因：折返後與原始音高 G3 於 beat 304～305.5 重疊，優先保留原音。",
+      "省略 beat 319 的 G2→G3／低5，原因：折返後與原始音高 G3 於 beat 319～321 重疊，優先保留原音。",
+      "省略 beat 47 的 B2→B3／低7，原因：折返後與原始音高 B3 於 beat 49～49.258 重疊，優先保留原音。",
+      "省略 beat 63 的 B2→B3／低7，原因：折返後與原始音高 B3 於 beat 65～65.258 重疊，優先保留原音。",
+      "省略 beat 79 的 B2→B3／低7，原因：折返後與原始音高 B3 於 beat 81～81.258 重疊，優先保留原音。",
+      "省略 beat 175 的 B2→B3／低7，原因：折返後與原始音高 B3 於 beat 177～177.258 重疊，優先保留原音。",
+      "省略 beat 191 的 B2→B3／低7，原因：折返後與原始音高 B3 於 beat 193～193.258 重疊，優先保留原音。",
+      "省略 beat 207 的 B2→B3／低7，原因：折返後與原始音高 B3 於 beat 209～209.258 重疊，優先保留原音。",
+      "縮短 beat 43 的 C4／中1，目前 length 2.5 拍；原因：原始同鍵連續按鍵，縮短至下一次起點。",
+      "縮短 beat 59 的 C4／中1，目前 length 2.5 拍；原因：原始同鍵連續按鍵，縮短至下一次起點。",
+      "縮短 beat 171 的 C4／中1，目前 length 2.5 拍；原因：原始同鍵連續按鍵，縮短至下一次起點。",
+      "縮短 beat 187 的 C4／中1，目前 length 2.5 拍；原因：原始同鍵連續按鍵，縮短至下一次起點。"
+    ],
+    "events": [
+      {
+        "key": "中1",
+        "beat": 1,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 2,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 3,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 4,
+        "length": 3,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "中5",
+        "beat": 4,
+        "length": 0.196,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 4.125,
+        "length": 1.875,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 6,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 7,
+        "length": 5,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "中5",
+        "beat": 7,
+        "length": 2.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 9.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 10,
+        "length": 3,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 12,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 13,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 13,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 13,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 13,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 14,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 14.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 15,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 16,
+        "length": 4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 16,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 17.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 18,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 20,
+        "length": 1,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "低1",
+        "beat": 21,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 21,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 21,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 21,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 22,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 23,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 24,
+        "length": 4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 24,
+        "length": 4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 24,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 25.5,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 27,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 28,
+        "length": 3,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 31,
+        "length": 5,
+        "enabled": true,
+        "warning": "方案 E：G2 升八度至 G3"
+      },
+      {
+        "key": "低6",
+        "beat": 36,
+        "length": 3.5,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "中5",
+        "beat": 36,
+        "length": 0.196,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 36.125,
+        "length": 0.875,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 37,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 38,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 39,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 39,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 39.5,
+        "length": 4.5,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "中2",
+        "beat": 39.5,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 40.5,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 41.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 42,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 43,
+        "length": 2.5,
+        "enabled": true,
+        "warning": "同鍵衝突：前音縮短至下一次按鍵開始"
+      },
+      {
+        "key": "低1",
+        "beat": 44,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 45,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 45.5,
+        "length": 2.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 47,
+        "length": 5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 49,
+        "length": 0.258,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 49.25,
+        "length": 0.258,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 49.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 51.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 52,
+        "length": 3.5,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "中5",
+        "beat": 52,
+        "length": 0.196,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 52.125,
+        "length": 0.875,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 53,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 54,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 55,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 55,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 55.5,
+        "length": 4.5,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "中2",
+        "beat": 55.5,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 56.5,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 57.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 58,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 59,
+        "length": 2.5,
+        "enabled": true,
+        "warning": "同鍵衝突：前音縮短至下一次按鍵開始"
+      },
+      {
+        "key": "低1",
+        "beat": 60,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 61,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 61.5,
+        "length": 2.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 63,
+        "length": 5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 65,
+        "length": 0.258,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 65.25,
+        "length": 0.258,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 65.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 67.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 68,
+        "length": 4,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "中1",
+        "beat": 68,
+        "length": 0.196,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 68.125,
+        "length": 0.375,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 68.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 69,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 69.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 70,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 71,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 72,
+        "length": 1.5,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "中2",
+        "beat": 72,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 73,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 73.5,
+        "length": 2.5,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "中4",
+        "beat": 74,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 75,
+        "length": 5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 76,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 77,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 77.5,
+        "length": 0.258,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 79,
+        "length": 5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 81,
+        "length": 0.258,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 81.25,
+        "length": 0.258,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 81.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 83,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 83.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 84,
+        "length": 1.5,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "中1",
+        "beat": 84,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 84.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 85,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 85.5,
+        "length": 1.5,
+        "enabled": true,
+        "warning": "方案 E：E2 升八度至 E3"
+      },
+      {
+        "key": "低5",
+        "beat": 85.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 86.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 87,
+        "length": 1.5,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "低6",
+        "beat": 87,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 87,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 87.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 88,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 88.5,
+        "length": 3,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "低5",
+        "beat": 88.5,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 91.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 92,
+        "length": 1.5,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "低6",
+        "beat": 92,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 92,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 93,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 93.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "低3",
+        "beat": 94,
+        "length": 1,
+        "enabled": true,
+        "warning": "方案 E：E2 升八度至 E3"
+      },
+      {
+        "key": "中2",
+        "beat": 94,
+        "length": 0.196,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 94.125,
+        "length": 0.875,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 95,
+        "length": 5,
+        "enabled": true,
+        "warning": "方案 E：G2 升八度至 G3"
+      },
+      {
+        "key": "中2",
+        "beat": 95,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 97,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 98,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 99,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 100,
+        "length": 3,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "中6",
+        "beat": 100,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 102,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 103,
+        "length": 5,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "中5",
+        "beat": 103,
+        "length": 2.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 105.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 106,
+        "length": 3,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 108,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 109,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 109,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 109,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 109,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 110,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 110.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 111,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 111.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 112,
+        "length": 4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 112,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 113.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 114,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 116,
+        "length": 1,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "低1",
+        "beat": 117,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 117,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 117,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 117,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 118,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 119,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 120,
+        "length": 4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 120,
+        "length": 4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 120,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 121.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 123,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 124,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 125,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 125.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 127,
+        "length": 5,
+        "enabled": true,
+        "warning": "方案 E：G2 升八度至 G3"
+      },
+      {
+        "key": "低7",
+        "beat": 127,
+        "length": 5,
+        "enabled": true,
+        "warning": "方案 E：B2 升八度至 B3"
+      },
+      {
+        "key": "中1",
+        "beat": 129,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 130,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 131,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 132,
+        "length": 3,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "中6",
+        "beat": 132,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 134,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 135,
+        "length": 5,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "中5",
+        "beat": 135,
+        "length": 2.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 137.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 138,
+        "length": 3,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 140,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 141,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 141,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 141,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 141,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 142,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 142.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 143,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 143.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 144,
+        "length": 4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 144,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 145.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 146,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 148,
+        "length": 1,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "低1",
+        "beat": 149,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 149,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 149,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 149,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 150,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 151,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 152,
+        "length": 4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 152,
+        "length": 4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 152,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 153.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 155,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 156,
+        "length": 3,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 157,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 158,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 159,
+        "length": 5,
+        "enabled": true,
+        "warning": "方案 E：G2 升八度至 G3"
+      },
+      {
+        "key": "中1",
+        "beat": 159,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 160,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 160,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 161.5,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 161.5,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 163,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 164,
+        "length": 0.196,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 164.125,
+        "length": 0.875,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 165,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 166,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 167,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 167,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 167.5,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 168.5,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 169.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 170,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 171,
+        "length": 2.5,
+        "enabled": true,
+        "warning": "同鍵衝突：前音縮短至下一次按鍵開始"
+      },
+      {
+        "key": "低1",
+        "beat": 172,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 173,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 173.5,
+        "length": 2.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 175,
+        "length": 5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 177,
+        "length": 0.258,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 177.25,
+        "length": 0.258,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 177.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 179.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 180,
+        "length": 3.5,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "中5",
+        "beat": 180,
+        "length": 0.196,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 180.125,
+        "length": 0.875,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 181,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 182,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 183,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 183,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 183.5,
+        "length": 4,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "中2",
+        "beat": 183.5,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 184.5,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 185.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 186,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 187,
+        "length": 2.5,
+        "enabled": true,
+        "warning": "同鍵衝突：前音縮短至下一次按鍵開始"
+      },
+      {
+        "key": "低1",
+        "beat": 188,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 189,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 189.5,
+        "length": 2.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 191,
+        "length": 5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 193,
+        "length": 0.258,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 193.25,
+        "length": 0.258,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 193.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 195.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 196,
+        "length": 4,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "中1",
+        "beat": 196,
+        "length": 0.196,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 196.125,
+        "length": 0.375,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 196.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 197,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 197.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 198,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 199,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 200,
+        "length": 1.5,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "中2",
+        "beat": 200,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 201,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 201.5,
+        "length": 2.5,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "中4",
+        "beat": 202,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 203,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 204,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 205,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 205.5,
+        "length": 0.258,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 207,
+        "length": 5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 209,
+        "length": 0.258,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 209.25,
+        "length": 0.258,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 209.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 211,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 211.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 212,
+        "length": 1.5,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "中1",
+        "beat": 212,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 212.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 213,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 213.5,
+        "length": 1.5,
+        "enabled": true,
+        "warning": "方案 E：E2 升八度至 E3"
+      },
+      {
+        "key": "低5",
+        "beat": 213.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 214.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 215,
+        "length": 1.5,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "低6",
+        "beat": 215,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 215,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 215.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 216,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 216.5,
+        "length": 3,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "低5",
+        "beat": 216.5,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 219.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 220,
+        "length": 1.5,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "低6",
+        "beat": 220,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 220,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 221,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 221.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "低3",
+        "beat": 222,
+        "length": 1,
+        "enabled": true,
+        "warning": "方案 E：E2 升八度至 E3"
+      },
+      {
+        "key": "中2",
+        "beat": 222,
+        "length": 0.196,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 222.125,
+        "length": 0.875,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 223,
+        "length": 3,
+        "enabled": true,
+        "warning": "方案 E：G2 升八度至 G3"
+      },
+      {
+        "key": "中2",
+        "beat": 223,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 225,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 226,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 227,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 228,
+        "length": 3,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "中6",
+        "beat": 228,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 230,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 231,
+        "length": 4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 231,
+        "length": 2.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 233.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 234,
+        "length": 3,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 235,
+        "length": 1,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "低1",
+        "beat": 236,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 237,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 238,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 238.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 239,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 239.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 240,
+        "length": 3,
+        "enabled": true,
+        "warning": "方案 E：G2 升八度至 G3"
+      },
+      {
+        "key": "中2",
+        "beat": 240,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 241.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 242,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 243,
+        "length": 1,
+        "enabled": true,
+        "warning": "方案 E：G2 升八度至 G3"
+      },
+      {
+        "key": "低6",
+        "beat": 244,
+        "length": 2,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "中3",
+        "beat": 245,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 246,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 247,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 248,
+        "length": 4,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "中4",
+        "beat": 248,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 249.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 251,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 252,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 255,
+        "length": 5,
+        "enabled": true,
+        "warning": "方案 E：G2 升八度至 G3"
+      },
+      {
+        "key": "中1",
+        "beat": 257,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 258,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 259,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 260,
+        "length": 3,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "中6",
+        "beat": 260,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 262,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 263,
+        "length": 4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 263,
+        "length": 2.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 265.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 266,
+        "length": 3,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 267,
+        "length": 1,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "低1",
+        "beat": 268,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 269,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 270,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 270.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 271,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 271.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 272,
+        "length": 3,
+        "enabled": true,
+        "warning": "方案 E：G2 升八度至 G3"
+      },
+      {
+        "key": "中2",
+        "beat": 272,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 273.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 274,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 275,
+        "length": 1,
+        "enabled": true,
+        "warning": "方案 E：G2 升八度至 G3"
+      },
+      {
+        "key": "低6",
+        "beat": 276,
+        "length": 2,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "中3",
+        "beat": 277,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 278,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 279,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 280,
+        "length": 4,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "中4",
+        "beat": 280,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 281.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 283,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 284,
+        "length": 4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 285,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 286,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 287,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 288,
+        "length": 4,
+        "enabled": true,
+        "warning": "方案 E：G2 升八度至 G3"
+      },
+      {
+        "key": "中2",
+        "beat": 288,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 288,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 289.5,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 289.5,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 291,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 292,
+        "length": 3,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "中5",
+        "beat": 292,
+        "length": 0.196,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 292.125,
+        "length": 1.875,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 294,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 295,
+        "length": 4,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "中5",
+        "beat": 295,
+        "length": 2.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 297.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 298,
+        "length": 3,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 299,
+        "length": 1,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "低1",
+        "beat": 300,
+        "length": 4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 301,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 302,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 302.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 303,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 304,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 304,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 305.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 306,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 307,
+        "length": 1,
+        "enabled": true,
+        "warning": "方案 E：G2 升八度至 G3"
+      },
+      {
+        "key": "低6",
+        "beat": 308,
+        "length": 4,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "中3",
+        "beat": 309,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 310,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 311,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 312,
+        "length": 4,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "中4",
+        "beat": 312,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 313.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 315,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 316,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 317,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 317.5,
+        "length": 0.258,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 319,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 319,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 321,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 322,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 323,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 324,
+        "length": 3,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "中6",
+        "beat": 324,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 326,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 327,
+        "length": 4,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "中5",
+        "beat": 327,
+        "length": 2.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 329.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 330,
+        "length": 3,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 331,
+        "length": 1,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "低1",
+        "beat": 332,
+        "length": 4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 333,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 334,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 334.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 335,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 335.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 336,
+        "length": 3,
+        "enabled": true,
+        "warning": "方案 E：G2 升八度至 G3"
+      },
+      {
+        "key": "中2",
+        "beat": 336,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 337.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 338,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 339,
+        "length": 1,
+        "enabled": true,
+        "warning": "方案 E：G2 升八度至 G3"
+      },
+      {
+        "key": "低6",
+        "beat": 340,
+        "length": 4,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "中3",
+        "beat": 341,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 342,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 343,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 344,
+        "length": 4,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "中4",
+        "beat": 344,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 345.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 347,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 348,
+        "length": 4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 352,
+        "length": 4,
+        "enabled": true,
+        "warning": "方案 E：G2 升八度至 G3"
+      },
+      {
+        "key": "中1",
+        "beat": 353,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 354,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 355,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 356,
+        "length": 3,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "中6",
+        "beat": 356,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 358,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 359,
+        "length": 5,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "中5",
+        "beat": 359,
+        "length": 2.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 361.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 362,
+        "length": 3,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 364,
+        "length": 4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 365,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 366,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 366.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 367,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 367.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 368,
+        "length": 4,
+        "enabled": true,
+        "warning": "方案 E：G2 升八度至 G3"
+      },
+      {
+        "key": "中2",
+        "beat": 368,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 369.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 370,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 372,
+        "length": 4,
+        "enabled": true,
+        "warning": "方案 E：A2 升八度至 A3"
+      },
+      {
+        "key": "中3",
+        "beat": 373,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 374,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 375,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 376,
+        "length": 4,
+        "enabled": true,
+        "warning": "方案 E：F2 升八度至 F3"
+      },
+      {
+        "key": "中4",
+        "beat": 376,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 377.5,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 379,
+        "length": 2,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 381,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 382,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 383,
+        "length": 5,
+        "enabled": true,
+        "warning": "方案 E：G2 升八度至 G3"
+      },
+      {
+        "key": "中1",
+        "beat": 383,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 384,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 384,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 385.5,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 385.5,
+        "length": 1.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 387,
+        "length": 1,
+        "enabled": true,
+        "warning": ""
+      }
+    ]
+  }
+}
