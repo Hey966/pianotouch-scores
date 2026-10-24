@@ -122,7 +122,8 @@
       const summary = document.createElement('summary'); summary.textContent = `${album.name} · ${tracks.length} 首歌曲`;
       const artist = document.createElement('p'); artist.className = 'album-meta'; artist.textContent = album.artist || '未標示演唱者／作者';
       const edit = document.createElement('button'); edit.textContent = '編輯專輯'; edit.addEventListener('click', () => editAlbum(album));
-      details.append(summary, artist, edit);
+      const remove = document.createElement('button'); remove.textContent = '移除專輯'; remove.className = 'danger'; remove.addEventListener('click', () => removeAlbum(album));
+      details.append(summary, artist, edit, remove);
       if (tracks.length) tracks.forEach(song => details.append(songCard(song)));
       else details.append(emptyMessage('這個專輯目前沒有歌曲。'));
       container.append(details);
@@ -161,6 +162,31 @@
       catalog = {...latest, albums};
       clearAlbumEditor(); renderAlbumOptions(); renderList();
       status('專輯已更新。歌曲歸屬與樂譜 JSON 保持不變。');
+    } catch (error) { status(error.message); }
+    finally { setBusy(false); }
+  }
+  async function removeAlbum(album) {
+    if (busy) return;
+    const originalTracks = catalog.songs.filter(song => song.albumId === album.id).map(song => song.id).sort();
+    const message = `確定移除專輯「${album.name}」？${originalTracks.length} 首歌曲會移到「單曲」，樂譜 JSON 不會刪除。`;
+    if (!confirm(message)) return;
+    setBusy(true); status('移除專輯中…');
+    try {
+      const latest = await loadCatalog();
+      const current = latest.albums.find(item => item.id === album.id);
+      if (!current || current.name !== album.name || current.artist !== album.artist) throw new Error('專輯已被修改，請重新整理後重試。');
+      const latestTracks = latest.songs.filter(song => song.albumId === album.id).map(song => song.id).sort();
+      if (latestTracks.length !== originalTracks.length || latestTracks.some((id, index) => id !== originalTracks[index])) throw new Error('專輯歌曲已變動，請重新整理後再確認移除。');
+      const albums = latest.albums.filter(item => item.id !== album.id);
+      const songs = latest.songs.map(song => {
+        if (song.albumId !== album.id) return song;
+        const {albumId, ...single} = song;
+        return single;
+      });
+      await commitFiles([{path:'catalog.json', content:JSON.stringify({version:1, albums, songs}, null, 2) + '\n'}], `Remove album ${album.id}`);
+      catalog = {...latest, albums, songs};
+      clearEditor(); clearAlbumEditor(); renderAlbumOptions(); renderList();
+      status(`已移除專輯「${album.name}」；${originalTracks.length} 首歌曲已移到單曲，樂譜 JSON 保留。`);
     } catch (error) { status(error.message); }
     finally { setBusy(false); }
   }
