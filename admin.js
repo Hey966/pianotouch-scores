@@ -8,6 +8,7 @@
   let token = '';
   let catalog = null;
   let editing = null;
+  let editingAlbum = null;
   let scoreFile = null;
   let importedFile = false;
   let busy = false;
@@ -84,25 +85,89 @@
     }
   }
   function toggleAlbumFields() { $('albumFields').classList.toggle('hidden', $('category').value !== 'album'); }
+  function songCard(song) {
+    const card = document.createElement('div'); card.className = 'song';
+    const title = document.createElement('strong'); title.textContent = song.title;
+    const info = document.createElement('p');
+    info.textContent = `${song.artist || '未標示作者'} · ${song.noteCount} 個音符 · ${song.bpm} BPM`;
+    const edit = document.createElement('button'); edit.textContent = '編輯歌曲'; edit.addEventListener('click', () => editSong(song));
+    const remove = document.createElement('button'); remove.textContent = '移除'; remove.className = 'danger'; remove.addEventListener('click', () => removeSong(song));
+    card.append(title, info, edit, remove);
+    return card;
+  }
+  function sectionHeading(title, count) {
+    const heading = document.createElement('h2'); heading.className = 'section-title';
+    heading.textContent = `${title}（${count}）`;
+    return heading;
+  }
+  function emptyMessage(message) {
+    const p = document.createElement('p'); p.className = 'empty'; p.textContent = message;
+    return p;
+  }
   function renderList() {
-    $('songs').replaceChildren();
-    if (!catalog.songs.length) {
-      const p = document.createElement('p'); p.textContent = '目前沒有線上樂譜。'; $('songs').append(p); return;
+    const container = $('songs');
+    const openAlbums = new Set([...container.querySelectorAll('details.album-card[open]')].map(node => node.dataset.albumId));
+    container.replaceChildren();
+    const albumIds = new Set(catalog.albums.map(album => album.id));
+    const singles = catalog.songs.filter(song => !song.albumId || !albumIds.has(song.albumId));
+    container.append(sectionHeading('單曲', singles.length));
+    if (singles.length) singles.forEach(song => container.append(songCard(song)));
+    else container.append(emptyMessage('目前沒有單曲。'));
+    container.append(sectionHeading('專輯', catalog.albums.length));
+    if (!catalog.albums.length) container.append(emptyMessage('目前沒有專輯。'));
+    for (const album of catalog.albums) {
+      const tracks = catalog.songs.filter(song => song.albumId === album.id);
+      const details = document.createElement('details'); details.className = 'album-card'; details.dataset.albumId = album.id;
+      details.open = openAlbums.has(album.id);
+      const summary = document.createElement('summary'); summary.textContent = `${album.name} · ${tracks.length} 首歌曲`;
+      const artist = document.createElement('p'); artist.className = 'album-meta'; artist.textContent = album.artist || '未標示演唱者／作者';
+      const edit = document.createElement('button'); edit.textContent = '編輯專輯'; edit.addEventListener('click', () => editAlbum(album));
+      details.append(summary, artist, edit);
+      if (tracks.length) tracks.forEach(song => details.append(songCard(song)));
+      else details.append(emptyMessage('這個專輯目前沒有歌曲。'));
+      container.append(details);
     }
-    for (const song of catalog.songs) {
-      const card = document.createElement('div'); card.className = 'song';
-      const title = document.createElement('strong'); title.textContent = song.title;
-      const album = catalog.albums.find(a => a.id === song.albumId);
-      const info = document.createElement('p'); info.textContent = `${album ? '專輯：' + album.name : '單曲'} · ${song.artist || '未標示作者'} · ${song.noteCount} 個音符 · ${song.bpm} BPM`;
-      const edit = document.createElement('button'); edit.textContent = '編輯'; edit.addEventListener('click', () => editSong(song));
-      const remove = document.createElement('button'); remove.textContent = '移除'; remove.className = 'danger'; remove.addEventListener('click', () => removeSong(song));
-      card.append(title, info, edit, remove); $('songs').append(card);
+  }
+  function clearAlbumEditor() {
+    editingAlbum = null;
+    $('albumEditor').classList.add('hidden');
+    $('editAlbumName').value = '';
+    $('editAlbumArtist').value = '';
+  }
+  function editAlbum(album) {
+    if (busy) return;
+    clearEditor();
+    editingAlbum = {...album};
+    $('editAlbumName').value = album.name;
+    $('editAlbumArtist').value = album.artist;
+    $('albumEditor').classList.remove('hidden');
+    $('albumEditor').scrollIntoView({behavior:'smooth'});
+  }
+  async function saveAlbum() {
+    if (busy || !editingAlbum) return;
+    const name = $('editAlbumName').value.trim(), artist = $('editAlbumArtist').value.trim();
+    if (!name || name.length > 120 || !artist || artist.length > 80) {
+      status('請填寫專輯名稱與演唱者／作者。');
+      return;
     }
+    setBusy(true); status('儲存專輯中…');
+    try {
+      const latest = await loadCatalog();
+      const current = latest.albums.find(album => album.id === editingAlbum.id);
+      if (!current || current.name !== editingAlbum.name || current.artist !== editingAlbum.artist) throw new Error('專輯已被其他人修改，請重新整理後再編輯。');
+      if (latest.albums.some(album => album.id !== current.id && album.name.toLocaleLowerCase() === name.toLocaleLowerCase() && album.artist.toLocaleLowerCase() === artist.toLocaleLowerCase())) throw new Error('相同名稱及作者的專輯已存在。');
+      const albums = latest.albums.map(album => album.id === current.id ? {...album, name, artist} : album);
+      await commitFiles([{path:'catalog.json', content:JSON.stringify({version:1, albums, songs:latest.songs}, null, 2) + '\n'}], `Update album ${current.id}`);
+      catalog = {...latest, albums};
+      clearAlbumEditor(); renderAlbumOptions(); renderList();
+      status('專輯已更新。歌曲歸屬與樂譜 JSON 保持不變。');
+    } catch (error) { status(error.message); }
+    finally { setBusy(false); }
   }
   function showEditor() { $('editor').classList.remove('hidden'); $('editor').scrollIntoView({behavior:'smooth'}); }
   function clearEditor() { $('editor').classList.add('hidden'); $('importFile').value = ''; editing = null; scoreFile = null; importedFile = false; }
   function newSong() {
-    editing = null; scoreFile = null; importedFile = false;
+    clearAlbumEditor(); editing = null; scoreFile = null; importedFile = false;
     $('editorHeading').textContent = '新增歌曲';
     $('editorHint').textContent = '選擇 PianoTouch 樂譜 JSON，確認歌曲名稱與作者後即可上傳。';
     $('fileLabel').textContent = '選擇樂譜 JSON（必填）'; $('save').textContent = '上傳歌曲';
@@ -114,7 +179,7 @@
   }
   async function editSong(song) {
     if (busy) return;
-    setBusy(true); status('讀取樂譜中…');
+    clearAlbumEditor(); setBusy(true); status('讀取樂譜中…');
     try {
       const file = await readFile(song.file);
       validateScoreFile(file);
@@ -156,7 +221,7 @@
     const score = {...scoreFile.score, title, bpm, reviewed:false, sourceImage:''};
     const content = JSON.stringify({...scoreFile, score}, null, 2) + '\n';
     if (new TextEncoder().encode(content).length > 2_000_000) throw new Error('樂譜檔超過 App 支援的 2 MB。');
-    return {title, artist, bpm, noteCount:score.events.length, content, albumMeta:isAlbum ? {name:albumName, artist:albumArtist} : null};
+    return {title, artist, bpm, noteCount:score.events.length, content, albumId:isAlbum ? $('existingAlbum').value : '', albumMeta:isAlbum ? {name:albumName, artist:albumArtist} : null};
   }
   async function commitFiles(changes, message) {
     const ref = await api('GET', `/git/ref/heads/${branch}`);
@@ -192,7 +257,10 @@
       const albums = [...latest.albums];
       let albumId = null;
       if (song.albumMeta) {
-        let album = albums.find(a => a.name.toLocaleLowerCase() === song.albumMeta.name.toLocaleLowerCase() && a.artist.toLocaleLowerCase() === song.albumMeta.artist.toLocaleLowerCase());
+        let album = song.albumId ? albums.find(a => a.id === song.albumId) : null;
+        if (song.albumId && !album) throw new Error('所選專輯已被移除，請重新整理。');
+        if (album && (album.name !== song.albumMeta.name || album.artist !== song.albumMeta.artist)) throw new Error('請使用「編輯專輯」修改現有專輯名稱與作者。');
+        if (!album) album = albums.find(a => a.name.toLocaleLowerCase() === song.albumMeta.name.toLocaleLowerCase() && a.artist.toLocaleLowerCase() === song.albumMeta.artist.toLocaleLowerCase());
         if (!album) {
           if (albums.length >= 100) throw new Error('最多可建立 100 個專輯。');
           album = {id:`album-${Date.now().toString(36)}-${Math.random().toString(36).slice(2,7)}`, ...song.albumMeta};
@@ -235,10 +303,12 @@
     catch (error) { token = ''; status(error.message); }
     finally { setBusy(false); }
   }
-  function disconnect() { token = ''; catalog = null; clearEditor(); $('manager').classList.add('hidden'); $('loginPanel').classList.remove('hidden'); $('songs').replaceChildren(); status('已登出。'); }
+  function disconnect() { token = ''; catalog = null; clearEditor(); clearAlbumEditor(); $('manager').classList.add('hidden'); $('loginPanel').classList.remove('hidden'); $('songs').replaceChildren(); status('已登出。'); }
   $('connect').addEventListener('click', connect);
   $('token').addEventListener('keydown', event => { if (event.key === 'Enter') connect(); });
   $('newSong').addEventListener('click', newSong);
+  $('saveAlbum').addEventListener('click', saveAlbum);
+  $('cancelAlbum').addEventListener('click', clearAlbumEditor);
   $('category').addEventListener('change', toggleAlbumFields);
   $('existingAlbum').addEventListener('change', () => {
     const album = (catalog?.albums || []).find(a => a.id === $('existingAlbum').value);
@@ -257,7 +327,7 @@
     const album = (catalog?.albums || []).find(a => a.id === $('existingAlbum').value);
     if (album && album.artist !== $('albumArtist').value.trim()) $('existingAlbum').value = '';
   });
-  $('reload').addEventListener('click', async () => { if (busy) return; setBusy(true); status('重新整理中…'); try { catalog = await loadCatalog(); clearEditor(); renderList(); status('已更新。'); } catch (error) { status(error.message); } finally { setBusy(false); } });
+  $('reload').addEventListener('click', async () => { if (busy) return; setBusy(true); status('重新整理中…'); try { catalog = await loadCatalog(); clearEditor(); clearAlbumEditor(); renderList(); status('已更新。'); } catch (error) { status(error.message); } finally { setBusy(false); } });
   $('disconnect').addEventListener('click', disconnect);
   $('save').addEventListener('click', saveSong);
   $('cancel').addEventListener('click', clearEditor);
