@@ -35,6 +35,11 @@
       "id": "album-mvmgce9l-7qocv",
       "name": "碧碧•雷克薩",
       "artist": "Bebe Rexha"
+    },
+    {
+      "id": "album-mvmgerdb-7pa56",
+      "name": "瑞秋•普拉滕",
+      "artist": "Rechel Platten"
     }
   ],
   "songs": [
@@ -109,6 +114,15 @@
       "noteCount": 559,
       "file": "songs/song-mvmgata2-9zyhb.pianotouch.json",
       "albumId": "album-mvmgce9l-7qocv"
+    },
+    {
+      "id": "song-mvmgcjfv-qewym",
+      "title": "Lone Ranger",
+      "artist": "Rechel Platten",
+      "bpm": 108,
+      "noteCount": 927,
+      "file": "songs/song-mvmgcjfv-qewym.pianotouch.json",
+      "albumId": "album-mvmgerdb-7pa56"
     }
   ]
 }
