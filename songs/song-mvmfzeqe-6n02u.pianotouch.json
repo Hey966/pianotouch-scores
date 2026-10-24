@@ -1,0 +1,6325 @@
+{
+  "format": "pianotouch-score",
+  "version": 1,
+  "score": {
+    "title": "Beauty and a Beat",
+    "bpm": 115,
+    "reviewed": false,
+    "sourceImage": "",
+    "endBeat": 192,
+    "issues": [
+      "譜首 1=C，依固定 C 調鍵位轉寫。原譜第 1 小節約 119 BPM、第 2 小節 117 BPM，後段多標 115 BPM；目前 App 每首歌曲只能設單一 BPM，本檔以 115 BPM 播放。",
+      "左手若有雙點低音、超出 C3–B5 的 36 鍵範圍，已升一個八度以便演奏；音色與原譜不同。",
+      "由四張圖片人工轉寫的可播放草稿；密集伴奏、跨小節連線和部分和弦仍須逐段核對。"
+    ],
+    "events": [
+      {
+        "key": "中1",
+        "beat": 0,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 0,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 0,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 0,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 0,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 1,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 1,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 1,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 1,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 1,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 2,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 2,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 2,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 2,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 2,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 3,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 3,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 3,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 3,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 3,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 4,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 4,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 4,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 4,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 4,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 5,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 5,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 5,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 5,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 5,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 6,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 6,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 6,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 6,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 6,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 7,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 7,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 7,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 7,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 7,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 8,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 8,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 8,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 8,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 9,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 9,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 9,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 9,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 10,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 10,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 10,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 10,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 11,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 11,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 11,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 11,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 12,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 12,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 12,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 12,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 13,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 13,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 13,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 13,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 14,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 14,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 14,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 14,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 15,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 15,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 15,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 15,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 16,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 16,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 16,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 16,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 16,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 16.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 17,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 17,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 17,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 17,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 17,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 17.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 18,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 18,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 18,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 18,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 18,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 18.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 19,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 19,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 19,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 19,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 19,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 19.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 19.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 20,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 20,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 20,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 20,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 20,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 20.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 21,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 21,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 21,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 21,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 21,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 21.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 22,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 22,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 22,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 22,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 22,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 22.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 23,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 23,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 23,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 23,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 23,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 23.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 23.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 24,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 24,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 24,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 24,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 24.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 25,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 25,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 25,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 25,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 25.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 26,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 26,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 26,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 26,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 26.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 27,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 27,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 27,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 27,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 27.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 27.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 28,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 28,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 28,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 28,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 28.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 29,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 29,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 29,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 29,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 29.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 30,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 30,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 30,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 30,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 30.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 31,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 31,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 31,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 31,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 31.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 31.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 32,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 32,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 32,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 32,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 32,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 32.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 32.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 33,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 33,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 33,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 33,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 33,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 33.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 34,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 34,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 34,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 34,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 34.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 35,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 35,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 35,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 35,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 35.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 36,
+        "length": 0.85,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 36,
+        "length": 0.85,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 36,
+        "length": 0.85,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 36,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 36,
+        "length": 0.85,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 36.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 37,
+        "length": 0.45,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 37,
+        "length": 0.45,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 37,
+        "length": 0.45,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 37,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 37.5,
+        "length": 0.45,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 37.5,
+        "length": 0.45,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 37.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 38,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 38,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 38,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 38,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 38.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 38.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 38.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 38.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 39,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 39,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 39,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 39,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 39.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 39.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 39.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 39.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 40,
+        "length": 0.45,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 40,
+        "length": 0.45,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 40,
+        "length": 0.45,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 40,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 40,
+        "length": 0.45,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 40.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 40.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 41,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 41,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 41,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 41,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 41,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 41.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 42,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 42,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 42,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 42,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 42.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 43,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 43,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 43,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 43,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 43.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 44,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 44,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 44,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 44,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 44.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 45,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 45,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 45,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 45,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 45.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 46,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 46,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 46.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 46.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 47,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 47,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 47.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 47.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 47.75,
+        "length": 0.22,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 48,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 48,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 48,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 48,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 48,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 48.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 48.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 49,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 49,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 49,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 49,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 49,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 49.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 50,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 50,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 50,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 50,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 50.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 51,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 51,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 51,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 51,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 51.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 52,
+        "length": 0.85,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 52,
+        "length": 0.85,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 52,
+        "length": 0.85,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 52,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 52,
+        "length": 0.85,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 52.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 53,
+        "length": 0.45,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 53,
+        "length": 0.45,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 53,
+        "length": 0.45,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 53,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 53.5,
+        "length": 0.45,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 53.5,
+        "length": 0.45,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 53.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 54,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 54,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 54,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 54,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 54.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 54.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 54.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 54.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 55,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 55,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 55,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 55,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 55.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 55.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 55.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 55.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 56,
+        "length": 0.45,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 56,
+        "length": 0.45,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 56,
+        "length": 0.45,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 56,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 56,
+        "length": 0.45,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 56.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 56.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 57,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 57,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 57,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 57,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 57,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 57.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 58,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 58,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 58,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 58,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 58.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 59,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 59,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 59,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 59,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 59.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 60,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 60,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 60,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 60,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 60.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 61,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 61,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 61,
+        "length": 0.5,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 61,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 61.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 62,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 62,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 62.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 62.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 63,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 63,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 63.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 63.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 63.75,
+        "length": 0.22,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 64,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 64,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 64.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 64.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 65,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 65,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 65,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 65.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 65.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 66,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 66,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 66,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 66.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 66.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 66.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 67,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 67,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 67,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 67.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 67.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 68,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 68,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 68,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 68.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 68.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 69,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 69,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 69,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 69.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 69.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 70,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 70,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 70,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 70.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 70.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 71,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 71,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 71,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 71.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 71.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 72,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 72,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 72.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 72.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 73,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 73,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 73,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 73.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 73.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 74,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 74,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 74,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 74.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 74.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 74.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 75,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 75,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 75,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 75.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 75.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 76,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 76,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 76,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 76.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 76.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 77,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 77,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 77,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 77.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 77.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 78,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 78,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 78,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 78.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 78.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 79,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 79,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 79,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 79.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 79.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 80,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 80,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 80.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 80.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 81,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 81,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 81,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 81.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 81.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 82,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 82,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 82,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 82.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 82.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 82.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 83,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 83,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 83,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 83.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 83.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 84,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 84,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 84,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 84.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 84.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 85,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 85,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 85,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 85.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 85.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 86,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 86,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 86,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 86.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 86.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 87,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 87,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 87,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 87.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 87.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 88,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 88,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 88.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 88.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 89,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 89,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 89,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 89.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 89.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 90,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 90,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 90,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 90.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 90.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 90.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 91,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 91,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 91,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 91.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 91.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 92,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 92,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 92,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 92.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 92.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 93,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 93,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 93,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 93.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 93.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 94,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 94,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 94,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 94.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 94.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 95,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 95,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 95,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 95.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 95.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 96,
+        "length": 3.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 96,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 96,
+        "length": 3.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 96,
+        "length": 3.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 96,
+        "length": 3.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 97,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 98,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 99,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 100,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 100,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 100,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 100,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 100,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 101,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 102,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 102,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 102,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 102,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 102,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 102.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 103,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 103,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 103.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 104,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 104,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 104,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 104,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 104,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 105,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 106,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 106,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 106,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 106,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 106,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 106.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 107,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 107,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 107.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 108,
+        "length": 0.85,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 108,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 108,
+        "length": 0.85,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 108,
+        "length": 0.85,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 109,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 109,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 109.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 110,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 110,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 110.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 111,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 111.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 112,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 112,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 113,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 113,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 114,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 114,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 115,
+        "length": 0.45,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 115,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 115.5,
+        "length": 0.45,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 116,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 116,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 116.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 117,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 117,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 117.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 118,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 118,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 118.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 119,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 119,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 119.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 120,
+        "length": 0.85,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 120,
+        "length": 0.85,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 120,
+        "length": 0.85,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 120,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 120,
+        "length": 0.85,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 121,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 121,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 121.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 122,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 122,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 122.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 123,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 124,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 124,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 125,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 125,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 126,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 126,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 127,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 127.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 127.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 127.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 127.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 128,
+        "length": 3.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 128,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 128,
+        "length": 3.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 128,
+        "length": 3.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 128,
+        "length": 3.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 128.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 129,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 129.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 130,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 130.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 131,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 131.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 132,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 132,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 132,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 132,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 132,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 132.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 133,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 133.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 134,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 134,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 134,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 134,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 134,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 134.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 134.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 135,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 135,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 135.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 135.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 136,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 136,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 136,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 136,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 136,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 136.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 137,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 137.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 138,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 138,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 138,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 138,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 138,
+        "length": 1.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 138.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 138.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 139,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 139,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 139.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 139.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 140,
+        "length": 0.85,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 140,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 140,
+        "length": 0.85,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 140,
+        "length": 0.85,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 140.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 141,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 141,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 141.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 141.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 142,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 142,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 142.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 142.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 143,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 143.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 143.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 144,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 144,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 144.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 145,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 145,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 145.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 146,
+        "length": 0.8,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 146,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 146.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 147,
+        "length": 0.45,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 147,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 147.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 147.5,
+        "length": 0.45,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 148,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 148,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 148.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 148.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 149,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 149,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 149.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 149.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 150,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 150,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 150.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 150.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 151,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 151,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 151.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 151.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 152,
+        "length": 0.85,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 152,
+        "length": 0.85,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 152,
+        "length": 0.85,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 152,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 152,
+        "length": 0.85,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 152.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 153,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 153,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 153.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 153.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 154,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 154,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 154.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 154.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 155,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 155.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 156,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 156.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 157,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 157.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 158,
+        "length": 0.35,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 158,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 158.5,
+        "length": 0.35,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 158.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 159,
+        "length": 0.35,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 159,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 159.5,
+        "length": 0.43,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 160,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 160,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 160,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 160,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 160.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 160.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 160.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 160.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 161,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 161,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 161,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 161,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 161.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 161.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 161.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 161.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 162,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 162,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 162,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 162,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 162.8,
+        "length": 0.55,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 164,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 164,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 164,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 164,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 164.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 164.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 164.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 164.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 165,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 165,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 165,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 165,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 165.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 165.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 165.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 165.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 166,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 166,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 166,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 166,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 166.8,
+        "length": 0.55,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 168,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 168,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 168,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 168,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 168.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 168.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 168.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 168.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 169,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 169,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 169,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 169,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 169.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 169.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 169.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 169.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 170,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 170,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 170,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 170,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 170.8,
+        "length": 0.55,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 172,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 172,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 172,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 172,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 172.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 172.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 172.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 172.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 173,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 173,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 173,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 173,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 173.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 173.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 173.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 173.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 174,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 174,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 174,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 174,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 174.5,
+        "length": 0.3,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 174.875,
+        "length": 0.3,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 175.25,
+        "length": 0.3,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 176,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 176,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 176,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 176,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 176.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 176.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 176.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 176.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 177,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 177,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 177,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 177,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 177.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 177.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 177.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 177.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 178,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 178,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 178,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 178,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 179,
+        "length": 0.7,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 180,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 180,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 180,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 180,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 180.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 180.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 180.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 180.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 181,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 181,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 181,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 181,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 181.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 181.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 181.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 181.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 182,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 182,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 182,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 182,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 182.5,
+        "length": 0.3,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 182.875,
+        "length": 0.3,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 183.25,
+        "length": 0.3,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 184,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 184,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 184,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 184,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 184.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 184.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 184.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 184.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 185,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 185,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 185,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 185,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 185.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 185.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 185.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 185.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 186,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 186,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 186,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 186,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 186.8,
+        "length": 0.55,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 188,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 188,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 188,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 188,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 188.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 188.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 188.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 188.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 189,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 189,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 189,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 189,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 189.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 189.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 189.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 189.5,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 190,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 190,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 190,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 190,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 190.6,
+        "length": 1.25,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 190.6,
+        "length": 1.25,
+        "enabled": true,
+        "warning": ""
+      }
+    ]
+  }
+}

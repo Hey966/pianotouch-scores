@@ -16,6 +16,15 @@
       "noteCount": 1279,
       "file": "songs/song-mvmfj1k5-pprim.pianotouch.json",
       "albumId": "album-mvmfk651-pos0n"
+    },
+    {
+      "id": "song-mvmfzeqe-6n02u",
+      "title": "Beauty and a Beat",
+      "artist": "Justin Bieber",
+      "bpm": 115,
+      "noteCount": 901,
+      "file": "songs/song-mvmfzeqe-6n02u.pianotouch.json",
+      "albumId": "album-mvmfk651-pos0n"
     }
   ]
 }
