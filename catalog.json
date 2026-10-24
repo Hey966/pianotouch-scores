@@ -20,6 +20,11 @@
       "id": "album-mvmg5mk2-slx53",
       "name": "周杰倫",
       "artist": "周杰倫"
+    },
+    {
+      "id": "album-mvmg8brw-uzhho",
+      "name": "林俊傑",
+      "artist": "林俊傑&鄧紫棋"
     }
   ],
   "songs": [
@@ -67,6 +72,15 @@
       "noteCount": 973,
       "file": "songs/song-mvmg55mn-rg9uf.pianotouch.json",
       "albumId": "album-mvmg5mk2-slx53"
+    },
+    {
+      "id": "song-mvmg617x-90qj6",
+      "title": "手心的薔薇",
+      "artist": "林俊傑&鄧紫棋",
+      "bpm": 89,
+      "noteCount": 1117,
+      "file": "songs/song-mvmg617x-90qj6.pianotouch.json",
+      "albumId": "album-mvmg8brw-uzhho"
     }
   ]
 }
