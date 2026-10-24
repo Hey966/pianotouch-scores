@@ -5,6 +5,11 @@
       "id": "album-mvmfk651-pos0n",
       "name": "小賈斯汀",
       "artist": "Justin Bieber"
+    },
+    {
+      "id": "album-mvmg2b0x-trfe8",
+      "name": "奧利•莫爾斯",
+      "artist": "Olly Murs"
     }
   ],
   "songs": [
@@ -25,6 +30,15 @@
       "noteCount": 901,
       "file": "songs/song-mvmfzeqe-6n02u.pianotouch.json",
       "albumId": "album-mvmfk651-pos0n"
+    },
+    {
+      "id": "song-mvmg081d-e11zz",
+      "title": "That Girl",
+      "artist": "Olly Murs",
+      "bpm": 100,
+      "noteCount": 173,
+      "file": "songs/song-mvmg081d-e11zz.pianotouch.json",
+      "albumId": "album-mvmg2b0x-trfe8"
     }
   ]
 }
