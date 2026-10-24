@@ -131,6 +131,14 @@
       "bpm": 99,
       "noteCount": 2066,
       "file": "songs/song-mvmgewy2-2w1lp.pianotouch.json"
+    },
+    {
+      "id": "song-mvmgm0xe-5pcj7",
+      "title": "Flight of the Bumblebee",
+      "artist": "Flight of the Bumblebee",
+      "bpm": 165,
+      "noteCount": 825,
+      "file": "songs/song-mvmgm0xe-5pcj7.pianotouch.json"
     }
   ]
 }
