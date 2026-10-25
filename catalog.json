@@ -262,14 +262,6 @@
       "bpm": 120,
       "noteCount": 36,
       "file": "songs/song-mvnuol5r-p1hoh.pianotouch.json"
-    },
-    {
-      "id": "song-mvnyzma5-q6cwm",
-      "title": "海嶼你",
-      "artist": "Crabbit / Cole先生",
-      "bpm": 76,
-      "noteCount": 905,
-      "file": "songs/song-mvnyzma5-q6cwm.pianotouch.json"
     }
   ]
 }
