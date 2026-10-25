@@ -40,6 +40,11 @@
       "id": "album-mvmmkpu2-qxh57",
       "name": "林俊傑",
       "artist": "JJ Lin"
+    },
+    {
+      "id": "album-mvn6um1o-fjbzj",
+      "name": "托尼•安",
+      "artist": "Tony Ann"
     }
   ],
   "songs": [
@@ -193,6 +198,15 @@
       "noteCount": 1034,
       "file": "songs/song-mvmq4fhk-14nsq.pianotouch.json",
       "albumId": "album-mvmmkpu2-qxh57"
+    },
+    {
+      "id": "song-mvn6ppla-0zgk2",
+      "title": "RUSH OF LIFE",
+      "artist": "Tony Ann",
+      "bpm": 123,
+      "noteCount": 1781,
+      "file": "songs/song-mvn6ppla-0zgk2.pianotouch.json",
+      "albumId": "album-mvn6um1o-fjbzj"
     }
   ]
 }
