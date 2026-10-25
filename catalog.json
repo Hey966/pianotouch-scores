@@ -55,11 +55,6 @@
       "id": "album-mvnpncsj-uyexb",
       "name": "菅野祐悟",
       "artist": "Yugo Kanno"
-    },
-    {
-      "id": "album-mvnz24xx-i1fyu",
-      "name": "馬也",
-      "artist": "Crabbit"
     }
   ],
   "songs": [
@@ -274,8 +269,7 @@
       "artist": "Crabbit / Cole先生",
       "bpm": 76,
       "noteCount": 905,
-      "file": "songs/song-mvnyzma5-q6cwm.pianotouch.json",
-      "albumId": "album-mvnz24xx-i1fyu"
+      "file": "songs/song-mvnyzma5-q6cwm.pianotouch.json"
     }
   ]
 }
