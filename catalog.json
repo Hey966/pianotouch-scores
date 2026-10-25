@@ -45,6 +45,11 @@
       "id": "album-mvn6um1o-fjbzj",
       "name": "托尼•安",
       "artist": "Tony Ann"
+    },
+    {
+      "id": "album-mvnp1mwe-3sgxn",
+      "name": "邁克爾·亨特",
+      "artist": "Michael Hunter"
     }
   ],
   "songs": [
@@ -226,6 +231,15 @@
       "noteCount": 594,
       "file": "songs/song-mvnon2mc-979qf.pianotouch.json",
       "albumId": "album-mvn6um1o-fjbzj"
+    },
+    {
+      "id": "song-mvnoy6qd-c910q",
+      "title": "Soviet Connection（GTA IV）",
+      "artist": "Michael Hunter",
+      "bpm": 141,
+      "noteCount": 1189,
+      "file": "songs/song-mvnoy6qd-c910q.pianotouch.json",
+      "albumId": "album-mvnp1mwe-3sgxn"
     }
   ]
 }
