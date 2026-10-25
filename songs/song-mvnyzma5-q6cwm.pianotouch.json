@@ -1,0 +1,6358 @@
+{
+  "format": "pianotouch-score",
+  "version": 1,
+  "score": {
+    "title": "海嶼你",
+    "bpm": 76,
+    "reviewed": false,
+    "sourceImage": "",
+    "endBeat": 404,
+    "issues": [
+      "【版本限制】這是從公開和弦譜改寫的「鋼琴和弦伴奏試演版」，不是海嶼你原曲旋律、雙手五線譜或 MidiShow 36 鍵 MIDI 的逐音轉寫；不含經核對的主旋律。",
+      "【來源】公開和弦譜：https://kanpu8.com/chords/hai-yu-ni/ ，記載G調指法、Capo 1、實際音高G#與建議速度76 BPM。",
+      "【編曲方式】依來源和弦進行重新安排左右手：左手彈低音根音，右手彈和弦；每兩拍重新觸發。按住長度為本試演版自訂，不代表原曲精確演奏時間。",
+      "【移調】來源G指法搭配Capo 1，音高全部上移一個半音，以實際音高Ab大調的伴奏進行製作。",
+      "【結構不確定】副歌及主歌的重複展開、各段起訖拍數根據和弦譜自行編排，並非來源MIDI的實際時間軸，不能當成原版全曲逐音驗證。",
+      "【未取得原始MIDI】MidiShow 36鍵版：https://www.midishow.com/en/midi/262936.html ；網頁介紹顯示C3-B5音域及53–80 BPM變速，但此輪未能合法取得可解析的MIDI位元資料；故無法包含該版的1,611個原始音符與變速。",
+      "【簡化】所有和弦均配置在C3–B5範圍，未移動原始事件（因無原始事件）；非方案E的原曲逐音八度折返。",
+      "【測試】PianoTouch JSON 格式、鍵名、事件排序、長度與同鍵重疊檢查均通過。"
+    ],
+    "events": [
+      {
+        "key": "中1",
+        "beat": 0,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 0,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 0,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 0,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 2,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 2,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 2,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 2,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 4,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 4,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 4,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 4,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 6,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 6,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 6,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 6,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 8,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 8,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 8,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 8,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 8,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 10,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 10,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 10,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 10,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 10,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 12,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 12,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 12,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 12,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 12,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 14,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 14,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 14,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 14,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 14,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 16,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 16,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 16,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 16,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 18,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 18,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 18,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 18,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 20,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 20,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 20,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 20,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 22,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 22,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 22,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 22,
+        "length": 0.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 23,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 23,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 23,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 23,
+        "length": 0.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 24,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 24,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 24,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 24,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 24,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 26,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 26,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 26,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 26,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 26,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 28,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 28,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 28,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 28,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 28,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 30,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 30,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 30,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 30,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 30,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 32,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 32,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 32,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 32,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 34,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 34,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 34,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 34,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 36,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 36,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 36,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 36,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 38,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 38,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 38,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 38,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 40,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 40,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 40,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 40,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 40,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 42,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 42,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 42,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 42,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 42,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 44,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 44,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 44,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 44,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 46,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 46,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 46,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 46,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 48,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 48,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 48,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 48,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 50,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 50,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 50,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 50,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 52,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 52,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 52,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 52,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 54,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 54,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 54,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 54,
+        "length": 0.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 55,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 55,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 55,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 55,
+        "length": 0.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 56,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 56,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 56,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 56,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 56,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 58,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 58,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 58,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 58,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 58,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 60,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 60,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 60,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 60,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 60,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 62,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 62,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 62,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 62,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 62,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 64,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 64,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 64,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 64,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 66,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 66,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 66,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 66,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 68,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 68,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 68,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 68,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 70,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 70,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 70,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 70,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 72,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 72,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 72,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 72,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 72,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 74,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 74,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 74,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 74,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 74,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 76,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 76,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 76,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 76,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 78,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 78,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 78,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 78,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 80,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 80,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 80,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 80,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 82,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 82,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 82,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 82,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 84,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 84,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 84,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 84,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 86,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 86,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 86,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 86,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 88,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 88,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 88,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 88,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 88,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 90,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 90,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 90,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 90,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 90,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 92,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 92,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 92,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 92,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 92,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 94,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 94,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 94,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 94,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 94,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 96,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 96,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 96,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 96,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 96,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 98,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 98,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 98,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 98,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 98,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 100,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 100,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 100,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 100,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 102,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 102,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 102,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 102,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 104,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 104,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 104,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 104,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 106,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 106,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 106,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 106,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 108,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 108,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯4",
+        "beat": 108,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 108,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 108,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 110,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 110,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯4",
+        "beat": 110,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 110,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 110,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 112,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 112,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 112,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 112,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 114,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 114,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 114,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 114,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 116,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 116,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 116,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 116,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 118,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 118,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 118,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 118,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 120,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 120,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 120,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 120,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 120,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 122,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 122,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 122,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 122,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 122,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 124,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 124,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 124,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 124,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 124,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 126,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 126,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 126,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 126,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 126,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 128,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 128,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 128,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 128,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 128,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 130,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 130,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 130,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 130,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 130,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 132,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 132,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 132,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 132,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 134,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 134,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 134,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 134,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 136,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 136,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 136,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 136,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 138,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 138,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 138,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 138,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 140,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 140,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 140,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 140,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 142,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 142,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 142,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 142,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 144,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 144,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 144,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 144,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 146,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 146,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 146,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 146,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 148,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 148,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 148,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 148,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 150,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 150,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 150,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 150,
+        "length": 0.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 151,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 151,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 151,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 151,
+        "length": 0.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 152,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 152,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 152,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 152,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 152,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 154,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 154,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 154,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 154,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 154,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 156,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 156,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 156,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 156,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 156,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 158,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 158,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 158,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 158,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 158,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 160,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 160,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 160,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 160,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 162,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 162,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 162,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 162,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 164,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 164,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 164,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 164,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 166,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 166,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 166,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 166,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 168,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 168,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 168,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 168,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 168,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 170,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 170,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 170,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 170,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 170,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 172,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 172,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 172,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 172,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 174,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 174,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 174,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 174,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 176,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 176,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 176,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 176,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 178,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 178,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 178,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 178,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 180,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 180,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 180,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 180,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 182,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 182,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 182,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 182,
+        "length": 0.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 183,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 183,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 183,
+        "length": 0.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 183,
+        "length": 0.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 184,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 184,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 184,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 184,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 184,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 186,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 186,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 186,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 186,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 186,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 188,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 188,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 188,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 188,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 188,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 190,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 190,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 190,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 190,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 190,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 192,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 192,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 192,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 192,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 194,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 194,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 194,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 194,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 196,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 196,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 196,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 196,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 198,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 198,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 198,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 198,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 200,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 200,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 200,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 200,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 200,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 202,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 202,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 202,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 202,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 202,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 204,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 204,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 204,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 204,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 206,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 206,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 206,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 206,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 208,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 208,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 208,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 208,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 210,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 210,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 210,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 210,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 212,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 212,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 212,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 212,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 214,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 214,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 214,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 214,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 216,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 216,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 216,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 216,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 216,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 218,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 218,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 218,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 218,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 218,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 220,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 220,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 220,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 220,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 220,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 222,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 222,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 222,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 222,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 222,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 224,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 224,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 224,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 224,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 224,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 226,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 226,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 226,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 226,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 226,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 228,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 228,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 228,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 228,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 230,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 230,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 230,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 230,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 232,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 232,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 232,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 232,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 234,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 234,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 234,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 234,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 236,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 236,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯4",
+        "beat": 236,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 236,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 236,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 238,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 238,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯4",
+        "beat": 238,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 238,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 238,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 240,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 240,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 240,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 240,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 242,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 242,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 242,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 242,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 244,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 244,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 244,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 244,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 246,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 246,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 246,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 246,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 248,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 248,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 248,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 248,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 248,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 250,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 250,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 250,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 250,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 250,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 252,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 252,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 252,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 252,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 252,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 254,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 254,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 254,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 254,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 254,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 256,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 256,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 256,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 256,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 256,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 258,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 258,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 258,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 258,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 258,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 260,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 260,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 260,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 260,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 262,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 262,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 262,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 262,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 264,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 264,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 264,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 264,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 266,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 266,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 266,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 266,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 268,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 268,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 268,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 268,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 270,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 270,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 270,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 270,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 272,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 272,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 272,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 272,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 274,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 274,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 274,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 274,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 276,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 276,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 276,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 276,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 276,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 278,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 278,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 278,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 278,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 278,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 280,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 280,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 280,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 280,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 280,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 282,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 282,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 282,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 282,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 284,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 284,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 284,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 284,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 286,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 286,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 286,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 286,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 288,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 288,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 288,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 288,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高♯2",
+        "beat": 288,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 290,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 290,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 290,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 290,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高♯2",
+        "beat": 290,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 292,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 292,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 292,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 292,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 294,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 294,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 294,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 294,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 296,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 296,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 296,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 296,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 298,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 298,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 298,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 298,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 300,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 300,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 300,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 300,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 302,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 302,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 302,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 302,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 304,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 304,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 304,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 304,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 306,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 306,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 306,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 306,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 308,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 308,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 308,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 308,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 310,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 310,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 310,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 310,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 312,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 312,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 312,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 312,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 312,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 314,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 314,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 314,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 314,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 314,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 316,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 316,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 316,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 316,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 316,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 318,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 318,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 318,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 318,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 318,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 320,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 320,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 320,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 320,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 320,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 322,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 322,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 322,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 322,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 322,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 324,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 324,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 324,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 324,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 326,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 326,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 326,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 326,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 328,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 328,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 328,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 328,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 330,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 330,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 330,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 330,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 332,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 332,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯4",
+        "beat": 332,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 332,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 332,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 334,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 334,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯4",
+        "beat": 334,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 334,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 334,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 336,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 336,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 336,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 336,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 338,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 338,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 338,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 338,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 340,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 340,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 340,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 340,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 342,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 342,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 342,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 342,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 344,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 344,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 344,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 344,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 344,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 346,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 346,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 346,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 346,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 346,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 348,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 348,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 348,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 348,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 348,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 350,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 350,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 350,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 350,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 350,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 352,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 352,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 352,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 352,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 352,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 354,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 354,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 354,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 354,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 354,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 356,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 356,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 356,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 356,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 358,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 358,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 358,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 358,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 360,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 360,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 360,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 360,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 362,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 362,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 362,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 362,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 364,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 364,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 364,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 364,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 366,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 366,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 366,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 366,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 368,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 368,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 368,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 368,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 370,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 370,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 370,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 370,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 372,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 372,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 372,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 372,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 374,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 374,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 374,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 374,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 376,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 376,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 376,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 376,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 378,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 378,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 378,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 378,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 380,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 380,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 380,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 380,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 382,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 382,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 382,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 382,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 384,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 384,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 384,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 384,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 384,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 386,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 386,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 386,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 386,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低1",
+        "beat": 386,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 388,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 388,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 388,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 388,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 388,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 390,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 390,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 390,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 390,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 390,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 392,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 392,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 392,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 392,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 392,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 394,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 394,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 394,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 394,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 394,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 396,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 396,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 396,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 396,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 398,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 398,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 398,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 398,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 400,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 400,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 400,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 400,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 402,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 402,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 402,
+        "length": 1.82,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 402,
+        "length": 1.88,
+        "enabled": true,
+        "warning": ""
+      }
+    ]
+  }
+}
