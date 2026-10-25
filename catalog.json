@@ -55,6 +55,11 @@
       "id": "album-mvnpncsj-uyexb",
       "name": "菅野祐悟",
       "artist": "Yugo Kanno"
+    },
+    {
+      "id": "album-mvnzc7ie-r8y5g",
+      "name": "李佳薇",
+      "artist": "Jess Lee"
     }
   ],
   "songs": [
@@ -262,6 +267,15 @@
       "bpm": 120,
       "noteCount": 36,
       "file": "songs/song-mvnuol5r-p1hoh.pianotouch.json"
+    },
+    {
+      "id": "song-mvnzav7t-13hqb",
+      "title": "甲乙丙丁",
+      "artist": "Jess Lee",
+      "bpm": 65,
+      "noteCount": 1202,
+      "file": "songs/song-mvnzav7t-13hqb.pianotouch.json",
+      "albumId": "album-mvnzc7ie-r8y5g"
     }
   ]
 }
