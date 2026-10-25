@@ -135,7 +135,8 @@
       "artist": "Tony Ann",
       "bpm": 99,
       "noteCount": 2066,
-      "file": "songs/song-mvmgewy2-2w1lp.pianotouch.json"
+      "file": "songs/song-mvmgewy2-2w1lp.pianotouch.json",
+      "albumId": "album-mvn6um1o-fjbzj"
     },
     {
       "id": "song-mvmgm0xe-5pcj7",
