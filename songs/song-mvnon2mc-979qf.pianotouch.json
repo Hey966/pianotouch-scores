@@ -1,0 +1,4182 @@
+{
+  "format": "pianotouch-score",
+  "version": 1,
+  "score": {
+    "title": "ICARUS",
+    "bpm": 98,
+    "reviewed": false,
+    "sourceImage": "",
+    "endBeat": 302.94,
+    "issues": [
+      "【版本性質】本檔為方案 E 全篇按鍵序列試演版，不是原曲或官方五線譜的精確音符與時值轉寫；reviewed=false。",
+      "來源：https://playpianosheets.com/sheets/icarus-tony-ann （免費 Virtual/Roblox Piano 文字按鍵譜，Normal 版本）。只依該版本的按鍵字元、和弦括號及停頓符號轉換，不混入其他版本音符。",
+      "參考官方版本：https://www.musicnotes.com/sheetmusic/tony-ann/icarus/MN0283420，C 小調、4/4、約 98 BPM；本 JSON 的 98 BPM 僅作試演基準，不能證明文字譜也採相同速度。",
+      "【重大節奏限制】文字譜不含 MIDI 時間戳、原始音符時值或逐小節計拍。本檔暫定每一單音或和弦提示 0.5 拍、每個連字號額外暫停 0.25 拍、空白只作閱讀分隔、每音按住 0.44 拍。這些數值均為推估，不可視為原譜精確節奏。",
+      "解析統計：原始按鍵提示 485 組，其中和弦提示 109 組，原始音符 594 筆；文字停頓連字號 246 個。",
+      "方案 E 折返：來源音符低於 C3 59 筆，高於 B5 56 筆；成功折返且保留 115 筆。",
+      "同一時間的同鍵衝突：省略 0 筆；其餘未改音高的音符優先保留。同鍵時值縮短 0 筆。",
+      "因來源沒有聲部分軌資訊，無法分辨或逐小節核對左、右手；保留來源標記為同時的和弦，而不額外推造聲部。",
+      "未取得與此免費文字按鍵譜相符、可直接讀取的 MIDI；網路上雖有其他公開或付費 MIDI／五線譜版本，但未將不同編曲混成一份。"
+    ],
+    "events": [
+      {
+        "key": "高1",
+        "beat": 0,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #1、鍵符 s"
+      },
+      {
+        "key": "高1",
+        "beat": 0.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #2、鍵符 s"
+      },
+      {
+        "key": "高1",
+        "beat": 1.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #3、鍵符 s"
+      },
+      {
+        "key": "高1",
+        "beat": 2.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #4、鍵符 s"
+      },
+      {
+        "key": "低♯5",
+        "beat": 3,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #5、鍵符 %；原 MIDI 音高 44、折返 +1 八度"
+      },
+      {
+        "key": "高1",
+        "beat": 3,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #5、鍵符 s"
+      },
+      {
+        "key": "低♯2",
+        "beat": 3.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #6、鍵符 ("
+      },
+      {
+        "key": "低♯5",
+        "beat": 4.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #7、鍵符 W"
+      },
+      {
+        "key": "高5",
+        "beat": 4.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #7、鍵符 h"
+      },
+      {
+        "key": "高♯6",
+        "beat": 5.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #8、鍵符 J"
+      },
+      {
+        "key": "低♯6",
+        "beat": 6,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #9、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 6,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #9、鍵符 d"
+      },
+      {
+        "key": "低4",
+        "beat": 6.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #10、鍵符 q"
+      },
+      {
+        "key": "低♯6",
+        "beat": 7.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #11、鍵符 E"
+      },
+      {
+        "key": "高5",
+        "beat": 7.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #11、鍵符 h"
+      },
+      {
+        "key": "高♯6",
+        "beat": 8.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #12、鍵符 J"
+      },
+      {
+        "key": "低1",
+        "beat": 9,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #13、鍵符 8"
+      },
+      {
+        "key": "高♯2",
+        "beat": 9,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #13、鍵符 D"
+      },
+      {
+        "key": "低5",
+        "beat": 9.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #14、鍵符 w"
+      },
+      {
+        "key": "中1",
+        "beat": 10.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #15、鍵符 t"
+      },
+      {
+        "key": "高4",
+        "beat": 10.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #15、鍵符 g"
+      },
+      {
+        "key": "高5",
+        "beat": 11.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #16、鍵符 h"
+      },
+      {
+        "key": "低♯2",
+        "beat": 12,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #17、鍵符 @；原 MIDI 音高 39、折返 +1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 12,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #17、鍵符 d"
+      },
+      {
+        "key": "低♯6",
+        "beat": 12.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #18、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 12.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #18、鍵符 d"
+      },
+      {
+        "key": "低♯2",
+        "beat": 13.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #19、鍵符 ("
+      },
+      {
+        "key": "高♯2",
+        "beat": 13.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #19、鍵符 D"
+      },
+      {
+        "key": "高2",
+        "beat": 14.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #20、鍵符 d"
+      },
+      {
+        "key": "低♯5",
+        "beat": 15,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #21、鍵符 %；原 MIDI 音高 44、折返 +1 八度"
+      },
+      {
+        "key": "高1",
+        "beat": 15,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #21、鍵符 s"
+      },
+      {
+        "key": "低♯2",
+        "beat": 15.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #22、鍵符 ("
+      },
+      {
+        "key": "低♯5",
+        "beat": 16.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #23、鍵符 W"
+      },
+      {
+        "key": "高5",
+        "beat": 16.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #23、鍵符 h"
+      },
+      {
+        "key": "高♯6",
+        "beat": 17.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #24、鍵符 J"
+      },
+      {
+        "key": "低♯6",
+        "beat": 18,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #25、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 18,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #25、鍵符 d"
+      },
+      {
+        "key": "低4",
+        "beat": 18.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #26、鍵符 q"
+      },
+      {
+        "key": "低♯6",
+        "beat": 19.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #27、鍵符 E"
+      },
+      {
+        "key": "高5",
+        "beat": 19.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #27、鍵符 h"
+      },
+      {
+        "key": "高4",
+        "beat": 20.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #28、鍵符 g"
+      },
+      {
+        "key": "低1",
+        "beat": 21,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #29、鍵符 8"
+      },
+      {
+        "key": "高♯2",
+        "beat": 21,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #29、鍵符 D"
+      },
+      {
+        "key": "低5",
+        "beat": 21.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #30、鍵符 w"
+      },
+      {
+        "key": "中1",
+        "beat": 22.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #31、鍵符 t"
+      },
+      {
+        "key": "高4",
+        "beat": 22.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #31、鍵符 g"
+      },
+      {
+        "key": "高5",
+        "beat": 23.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #32、鍵符 h"
+      },
+      {
+        "key": "低♯2",
+        "beat": 24,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #33、鍵符 @；原 MIDI 音高 39、折返 +1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 24,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #33、鍵符 d"
+      },
+      {
+        "key": "低♯6",
+        "beat": 24.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #34、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 24.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #34、鍵符 d"
+      },
+      {
+        "key": "低♯2",
+        "beat": 25.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #35、鍵符 ("
+      },
+      {
+        "key": "高♯2",
+        "beat": 25.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #35、鍵符 D"
+      },
+      {
+        "key": "高2",
+        "beat": 26.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #36、鍵符 d"
+      },
+      {
+        "key": "低♯5",
+        "beat": 27,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #37、鍵符 %；原 MIDI 音高 44、折返 +1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 27,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #37、鍵符 D"
+      },
+      {
+        "key": "高2",
+        "beat": 27.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #38、鍵符 d"
+      },
+      {
+        "key": "高♯2",
+        "beat": 28,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #39、鍵符 D"
+      },
+      {
+        "key": "高4",
+        "beat": 28.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #40、鍵符 g"
+      },
+      {
+        "key": "高4",
+        "beat": 29,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #41、鍵符 g"
+      },
+      {
+        "key": "高♯2",
+        "beat": 29.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #42、鍵符 D"
+      },
+      {
+        "key": "高4",
+        "beat": 30,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #43、鍵符 g"
+      },
+      {
+        "key": "高5",
+        "beat": 30.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #44、鍵符 h"
+      },
+      {
+        "key": "高♯5",
+        "beat": 31,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #45、鍵符 H"
+      },
+      {
+        "key": "高♯5",
+        "beat": 31.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #46、鍵符 H"
+      },
+      {
+        "key": "高5",
+        "beat": 32,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #47、鍵符 h"
+      },
+      {
+        "key": "高4",
+        "beat": 32.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #48、鍵符 g"
+      },
+      {
+        "key": "高♯2",
+        "beat": 33,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #49、鍵符 D"
+      },
+      {
+        "key": "低4",
+        "beat": 33.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #50、鍵符 4；原 MIDI 音高 41、折返 +1 八度"
+      },
+      {
+        "key": "高1",
+        "beat": 33.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #50、鍵符 s"
+      },
+      {
+        "key": "高2",
+        "beat": 34,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #51、鍵符 d"
+      },
+      {
+        "key": "高♯2",
+        "beat": 34.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #52、鍵符 D"
+      },
+      {
+        "key": "高4",
+        "beat": 35,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #53、鍵符 g"
+      },
+      {
+        "key": "高4",
+        "beat": 35.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #54、鍵符 g"
+      },
+      {
+        "key": "高♯2",
+        "beat": 36,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #55、鍵符 D"
+      },
+      {
+        "key": "高4",
+        "beat": 36.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #56、鍵符 g"
+      },
+      {
+        "key": "高5",
+        "beat": 37,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #57、鍵符 h"
+      },
+      {
+        "key": "高♯5",
+        "beat": 37.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #58、鍵符 H"
+      },
+      {
+        "key": "高♯5",
+        "beat": 38,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #59、鍵符 H"
+      },
+      {
+        "key": "高5",
+        "beat": 38.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #60、鍵符 h"
+      },
+      {
+        "key": "高4",
+        "beat": 39,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #61、鍵符 g"
+      },
+      {
+        "key": "高♯2",
+        "beat": 39.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #62、鍵符 D"
+      },
+      {
+        "key": "低1",
+        "beat": 40,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #63、鍵符 8"
+      },
+      {
+        "key": "高♯2",
+        "beat": 40,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #63、鍵符 D"
+      },
+      {
+        "key": "高♯2",
+        "beat": 40.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #64、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "高4",
+        "beat": 41,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #65、鍵符 c；原 MIDI 音高 89、折返 -1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 41.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #66、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 42,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #67、鍵符 z；原 MIDI 音高 86、折返 -1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 42.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #68、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 43,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #69、鍵符 z；原 MIDI 音高 86、折返 -1 八度"
+      },
+      {
+        "key": "高5",
+        "beat": 43.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #70、鍵符 h"
+      },
+      {
+        "key": "低♯6",
+        "beat": 44.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #71、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "高5",
+        "beat": 44.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #71、鍵符 h"
+      },
+      {
+        "key": "高♯2",
+        "beat": 45.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #72、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "高4",
+        "beat": 45.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #73、鍵符 c；原 MIDI 音高 89、折返 -1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 46.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #74、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 46.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #75、鍵符 z；原 MIDI 音高 86、折返 -1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 47.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #76、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 47.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #77、鍵符 z；原 MIDI 音高 86、折返 -1 八度"
+      },
+      {
+        "key": "高4",
+        "beat": 48.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #78、鍵符 g"
+      },
+      {
+        "key": "高♯2",
+        "beat": 49.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #79、鍵符 D"
+      },
+      {
+        "key": "高2",
+        "beat": 49.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #80、鍵符 d"
+      },
+      {
+        "key": "低♯5",
+        "beat": 50.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #81、鍵符 %；原 MIDI 音高 44、折返 +1 八度"
+      },
+      {
+        "key": "高1",
+        "beat": 50.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #81、鍵符 s"
+      },
+      {
+        "key": "高2",
+        "beat": 50.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #82、鍵符 d"
+      },
+      {
+        "key": "高♯2",
+        "beat": 51.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #83、鍵符 D"
+      },
+      {
+        "key": "高4",
+        "beat": 51.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #84、鍵符 g"
+      },
+      {
+        "key": "高4",
+        "beat": 52.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #85、鍵符 g"
+      },
+      {
+        "key": "高♯2",
+        "beat": 52.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #86、鍵符 D"
+      },
+      {
+        "key": "高4",
+        "beat": 53.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #87、鍵符 g"
+      },
+      {
+        "key": "高5",
+        "beat": 53.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #88、鍵符 h"
+      },
+      {
+        "key": "高♯5",
+        "beat": 54.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #89、鍵符 H"
+      },
+      {
+        "key": "高♯6",
+        "beat": 54.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #90、鍵符 J"
+      },
+      {
+        "key": "高♯5",
+        "beat": 55.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #91、鍵符 H"
+      },
+      {
+        "key": "高5",
+        "beat": 55.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #92、鍵符 h"
+      },
+      {
+        "key": "高4",
+        "beat": 56.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #93、鍵符 g"
+      },
+      {
+        "key": "高♯2",
+        "beat": 56.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #94、鍵符 D"
+      },
+      {
+        "key": "低4",
+        "beat": 57.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #95、鍵符 4；原 MIDI 音高 41、折返 +1 八度"
+      },
+      {
+        "key": "高1",
+        "beat": 57.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #95、鍵符 s"
+      },
+      {
+        "key": "高2",
+        "beat": 57.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #96、鍵符 d"
+      },
+      {
+        "key": "高♯2",
+        "beat": 58.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #97、鍵符 D"
+      },
+      {
+        "key": "高4",
+        "beat": 58.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #98、鍵符 g"
+      },
+      {
+        "key": "高4",
+        "beat": 59.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #99、鍵符 g"
+      },
+      {
+        "key": "高♯2",
+        "beat": 59.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #100、鍵符 D"
+      },
+      {
+        "key": "高4",
+        "beat": 60.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #101、鍵符 g"
+      },
+      {
+        "key": "高5",
+        "beat": 60.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #102、鍵符 h"
+      },
+      {
+        "key": "高♯5",
+        "beat": 61.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #103、鍵符 H"
+      },
+      {
+        "key": "高♯6",
+        "beat": 61.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #104、鍵符 J"
+      },
+      {
+        "key": "高♯5",
+        "beat": 62.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #105、鍵符 H"
+      },
+      {
+        "key": "高5",
+        "beat": 62.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #106、鍵符 h"
+      },
+      {
+        "key": "高4",
+        "beat": 63.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #107、鍵符 g"
+      },
+      {
+        "key": "低1",
+        "beat": 63.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #108、鍵符 8"
+      },
+      {
+        "key": "高3",
+        "beat": 63.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #108、鍵符 f"
+      },
+      {
+        "key": "低5",
+        "beat": 64.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #109、鍵符 w"
+      },
+      {
+        "key": "中1",
+        "beat": 65.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #110、鍵符 t"
+      },
+      {
+        "key": "中3",
+        "beat": 66,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #111、鍵符 u"
+      },
+      {
+        "key": "中5",
+        "beat": 66.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #112、鍵符 o"
+      },
+      {
+        "key": "高3",
+        "beat": 66.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #112、鍵符 f"
+      },
+      {
+        "key": "中3",
+        "beat": 67.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #113、鍵符 u"
+      },
+      {
+        "key": "中1",
+        "beat": 68.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #114、鍵符 t"
+      },
+      {
+        "key": "低5",
+        "beat": 69,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #115、鍵符 w"
+      },
+      {
+        "key": "低1",
+        "beat": 69.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #116、鍵符 8"
+      },
+      {
+        "key": "中5",
+        "beat": 69.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #116、鍵符 o"
+      },
+      {
+        "key": "中5",
+        "beat": 70.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #117、鍵符 o"
+      },
+      {
+        "key": "中5",
+        "beat": 71.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #118、鍵符 o"
+      },
+      {
+        "key": "中5",
+        "beat": 72,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #119、鍵符 o"
+      },
+      {
+        "key": "中4",
+        "beat": 72.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #120、鍵符 i"
+      },
+      {
+        "key": "中♯2",
+        "beat": 73,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #121、鍵符 Y"
+      },
+      {
+        "key": "中2",
+        "beat": 73.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #122、鍵符 y"
+      },
+      {
+        "key": "低♯5",
+        "beat": 74,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #123、鍵符 %；原 MIDI 音高 44、折返 +1 八度"
+      },
+      {
+        "key": "中1",
+        "beat": 74,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #123、鍵符 t"
+      },
+      {
+        "key": "低♯2",
+        "beat": 74.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #124、鍵符 ("
+      },
+      {
+        "key": "低♯5",
+        "beat": 75.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #125、鍵符 W"
+      },
+      {
+        "key": "中5",
+        "beat": 75.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #125、鍵符 o"
+      },
+      {
+        "key": "中♯6",
+        "beat": 76.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #126、鍵符 P"
+      },
+      {
+        "key": "低♯6",
+        "beat": 77,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #127、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "中2",
+        "beat": 77,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #127、鍵符 y"
+      },
+      {
+        "key": "低4",
+        "beat": 77.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #128、鍵符 q"
+      },
+      {
+        "key": "低♯6",
+        "beat": 78.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #129、鍵符 E"
+      },
+      {
+        "key": "中5",
+        "beat": 78.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #129、鍵符 o"
+      },
+      {
+        "key": "中♯6",
+        "beat": 79.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #130、鍵符 P"
+      },
+      {
+        "key": "低1",
+        "beat": 80,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #131、鍵符 8"
+      },
+      {
+        "key": "中♯2",
+        "beat": 80,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #131、鍵符 Y"
+      },
+      {
+        "key": "低5",
+        "beat": 80.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #132、鍵符 w"
+      },
+      {
+        "key": "中1",
+        "beat": 81.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #133、鍵符 t"
+      },
+      {
+        "key": "中4",
+        "beat": 81.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #133、鍵符 i"
+      },
+      {
+        "key": "中5",
+        "beat": 82.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #134、鍵符 o"
+      },
+      {
+        "key": "低♯2",
+        "beat": 83,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #135、鍵符 ("
+      },
+      {
+        "key": "中2",
+        "beat": 83,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #135、鍵符 y"
+      },
+      {
+        "key": "低5",
+        "beat": 83.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #136、鍵符 w"
+      },
+      {
+        "key": "低♯6",
+        "beat": 84.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #137、鍵符 E"
+      },
+      {
+        "key": "中♯2",
+        "beat": 84.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #137、鍵符 Y"
+      },
+      {
+        "key": "中2",
+        "beat": 85.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #138、鍵符 y"
+      },
+      {
+        "key": "低♯5",
+        "beat": 86,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #139、鍵符 %；原 MIDI 音高 44、折返 +1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 86.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #140、鍵符 D"
+      },
+      {
+        "key": "高♯2",
+        "beat": 87.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #141、鍵符 D"
+      },
+      {
+        "key": "低♯2",
+        "beat": 88,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #142、鍵符 ("
+      },
+      {
+        "key": "高♯2",
+        "beat": 88,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #142、鍵符 D"
+      },
+      {
+        "key": "高♯2",
+        "beat": 88.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #143、鍵符 D"
+      },
+      {
+        "key": "高♯2",
+        "beat": 89.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #144、鍵符 D"
+      },
+      {
+        "key": "低♯6",
+        "beat": 90,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #145、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 90.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #146、鍵符 D"
+      },
+      {
+        "key": "高♯2",
+        "beat": 91.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #147、鍵符 D"
+      },
+      {
+        "key": "低4",
+        "beat": 92,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #148、鍵符 q"
+      },
+      {
+        "key": "高♯2",
+        "beat": 92,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #148、鍵符 D"
+      },
+      {
+        "key": "高♯2",
+        "beat": 92.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #149、鍵符 D"
+      },
+      {
+        "key": "高2",
+        "beat": 93.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #150、鍵符 d"
+      },
+      {
+        "key": "低1",
+        "beat": 94,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #151、鍵符 8"
+      },
+      {
+        "key": "高♯2",
+        "beat": 94.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #152、鍵符 D"
+      },
+      {
+        "key": "高♯2",
+        "beat": 95.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #153、鍵符 D"
+      },
+      {
+        "key": "低5",
+        "beat": 96,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #154、鍵符 w"
+      },
+      {
+        "key": "高♯2",
+        "beat": 96,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #154、鍵符 D"
+      },
+      {
+        "key": "高♯2",
+        "beat": 96.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #155、鍵符 D"
+      },
+      {
+        "key": "高♯2",
+        "beat": 97.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #156、鍵符 D"
+      },
+      {
+        "key": "低♯2",
+        "beat": 98,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #157、鍵符 ("
+      },
+      {
+        "key": "高♯2",
+        "beat": 98.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #158、鍵符 D"
+      },
+      {
+        "key": "高♯2",
+        "beat": 99.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #159、鍵符 D"
+      },
+      {
+        "key": "低♯6",
+        "beat": 100,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #160、鍵符 E"
+      },
+      {
+        "key": "高5",
+        "beat": 100,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #160、鍵符 h"
+      },
+      {
+        "key": "高2",
+        "beat": 100.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #161、鍵符 d"
+      },
+      {
+        "key": "高♯2",
+        "beat": 101.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #162、鍵符 D"
+      },
+      {
+        "key": "低♯5",
+        "beat": 102,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #163、鍵符 %；原 MIDI 音高 44、折返 +1 八度"
+      },
+      {
+        "key": "高♯6",
+        "beat": 102.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #164、鍵符 J"
+      },
+      {
+        "key": "高♯6",
+        "beat": 103.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #165、鍵符 J"
+      },
+      {
+        "key": "低♯2",
+        "beat": 104,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #166、鍵符 ("
+      },
+      {
+        "key": "高♯6",
+        "beat": 104,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #166、鍵符 J"
+      },
+      {
+        "key": "高♯6",
+        "beat": 104.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #167、鍵符 J"
+      },
+      {
+        "key": "高♯6",
+        "beat": 105.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #168、鍵符 J"
+      },
+      {
+        "key": "低♯6",
+        "beat": 106,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #169、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 106.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #170、鍵符 z；原 MIDI 音高 86、折返 -1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 107.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #171、鍵符 z；原 MIDI 音高 86、折返 -1 八度"
+      },
+      {
+        "key": "低4",
+        "beat": 108,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #172、鍵符 q"
+      },
+      {
+        "key": "高2",
+        "beat": 108,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #172、鍵符 z；原 MIDI 音高 86、折返 -1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 108.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #173、鍵符 z；原 MIDI 音高 86、折返 -1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 109.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #174、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "高4",
+        "beat": 110,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #175、鍵符 c；原 MIDI 音高 89、折返 -1 八度"
+      },
+      {
+        "key": "低1",
+        "beat": 110.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #176、鍵符 8"
+      },
+      {
+        "key": "高♯2",
+        "beat": 111,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #177、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 111.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #178、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "低5",
+        "beat": 112.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #179、鍵符 w"
+      },
+      {
+        "key": "高♯2",
+        "beat": 112.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #179、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 113.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #180、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "高5",
+        "beat": 114,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #181、鍵符 h"
+      },
+      {
+        "key": "高♯5",
+        "beat": 114.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #182、鍵符 H"
+      },
+      {
+        "key": "高♯6",
+        "beat": 115,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #183、鍵符 J"
+      },
+      {
+        "key": "高♯5",
+        "beat": 115.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #184、鍵符 H"
+      },
+      {
+        "key": "高♯5",
+        "beat": 116,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #185、鍵符 H"
+      },
+      {
+        "key": "高5",
+        "beat": 116.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #186、鍵符 h"
+      },
+      {
+        "key": "高5",
+        "beat": 117,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #187、鍵符 h"
+      },
+      {
+        "key": "高4",
+        "beat": 117.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #188、鍵符 g"
+      },
+      {
+        "key": "高4",
+        "beat": 118,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #189、鍵符 g"
+      },
+      {
+        "key": "高♯2",
+        "beat": 118.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #190、鍵符 D"
+      },
+      {
+        "key": "高♯2",
+        "beat": 119,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #191、鍵符 D"
+      },
+      {
+        "key": "高2",
+        "beat": 119.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #192、鍵符 d"
+      },
+      {
+        "key": "高2",
+        "beat": 120,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #193、鍵符 d"
+      },
+      {
+        "key": "高1",
+        "beat": 120.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #194、鍵符 s"
+      },
+      {
+        "key": "高1",
+        "beat": 121,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #195、鍵符 s"
+      },
+      {
+        "key": "中5",
+        "beat": 121.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #196、鍵符 o"
+      },
+      {
+        "key": "中♯2",
+        "beat": 122,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #197、鍵符 Y"
+      },
+      {
+        "key": "中2",
+        "beat": 122.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #198、鍵符 y"
+      },
+      {
+        "key": "低♯5",
+        "beat": 123,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #199、鍵符 %；原 MIDI 音高 44、折返 +1 八度"
+      },
+      {
+        "key": "中1",
+        "beat": 123,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #199、鍵符 t"
+      },
+      {
+        "key": "低♯2",
+        "beat": 123.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #200、鍵符 ("
+      },
+      {
+        "key": "低♯5",
+        "beat": 124.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #201、鍵符 W"
+      },
+      {
+        "key": "高5",
+        "beat": 124.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #201、鍵符 h"
+      },
+      {
+        "key": "高♯6",
+        "beat": 125.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #202、鍵符 J"
+      },
+      {
+        "key": "低♯6",
+        "beat": 126,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #203、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 126,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #203、鍵符 d"
+      },
+      {
+        "key": "低4",
+        "beat": 126.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #204、鍵符 q"
+      },
+      {
+        "key": "低♯6",
+        "beat": 127.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #205、鍵符 E"
+      },
+      {
+        "key": "高5",
+        "beat": 127.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #205、鍵符 h"
+      },
+      {
+        "key": "高♯6",
+        "beat": 128.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #206、鍵符 J"
+      },
+      {
+        "key": "低1",
+        "beat": 129,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #207、鍵符 8"
+      },
+      {
+        "key": "高♯2",
+        "beat": 129,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #207、鍵符 D"
+      },
+      {
+        "key": "低5",
+        "beat": 129.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #208、鍵符 w"
+      },
+      {
+        "key": "中1",
+        "beat": 130.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #209、鍵符 t"
+      },
+      {
+        "key": "高4",
+        "beat": 130.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #209、鍵符 g"
+      },
+      {
+        "key": "高5",
+        "beat": 131.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #210、鍵符 h"
+      },
+      {
+        "key": "低♯2",
+        "beat": 132,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #211、鍵符 @；原 MIDI 音高 39、折返 +1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 132,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #211、鍵符 d"
+      },
+      {
+        "key": "低♯6",
+        "beat": 132.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #212、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 132.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #212、鍵符 d"
+      },
+      {
+        "key": "低♯2",
+        "beat": 133.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #213、鍵符 ("
+      },
+      {
+        "key": "高♯2",
+        "beat": 133.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #213、鍵符 D"
+      },
+      {
+        "key": "高2",
+        "beat": 134.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #214、鍵符 d"
+      },
+      {
+        "key": "低♯5",
+        "beat": 135,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #215、鍵符 %；原 MIDI 音高 44、折返 +1 八度"
+      },
+      {
+        "key": "高1",
+        "beat": 135,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #215、鍵符 s"
+      },
+      {
+        "key": "低♯2",
+        "beat": 135.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #216、鍵符 ("
+      },
+      {
+        "key": "低♯5",
+        "beat": 136.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #217、鍵符 W"
+      },
+      {
+        "key": "高5",
+        "beat": 136.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #217、鍵符 h"
+      },
+      {
+        "key": "高♯6",
+        "beat": 137.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #218、鍵符 J"
+      },
+      {
+        "key": "低♯6",
+        "beat": 138,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #219、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 138,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #219、鍵符 d"
+      },
+      {
+        "key": "低4",
+        "beat": 138.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #220、鍵符 q"
+      },
+      {
+        "key": "低♯6",
+        "beat": 139.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #221、鍵符 E"
+      },
+      {
+        "key": "高5",
+        "beat": 139.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #221、鍵符 h"
+      },
+      {
+        "key": "高4",
+        "beat": 140.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #222、鍵符 g"
+      },
+      {
+        "key": "低1",
+        "beat": 141,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #223、鍵符 8"
+      },
+      {
+        "key": "高♯2",
+        "beat": 141,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #223、鍵符 D"
+      },
+      {
+        "key": "低5",
+        "beat": 141.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #224、鍵符 w"
+      },
+      {
+        "key": "中1",
+        "beat": 142.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #225、鍵符 t"
+      },
+      {
+        "key": "高4",
+        "beat": 142.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #225、鍵符 g"
+      },
+      {
+        "key": "高5",
+        "beat": 143.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #226、鍵符 h"
+      },
+      {
+        "key": "低♯2",
+        "beat": 144,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #227、鍵符 @；原 MIDI 音高 39、折返 +1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 144,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #227、鍵符 d"
+      },
+      {
+        "key": "低♯6",
+        "beat": 144.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #228、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 144.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #228、鍵符 d"
+      },
+      {
+        "key": "低♯2",
+        "beat": 145.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #229、鍵符 ("
+      },
+      {
+        "key": "高♯2",
+        "beat": 145.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #229、鍵符 D"
+      },
+      {
+        "key": "高2",
+        "beat": 146.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #230、鍵符 d"
+      },
+      {
+        "key": "低♯5",
+        "beat": 147,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #231、鍵符 %；原 MIDI 音高 44、折返 +1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 147,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #231、鍵符 D"
+      },
+      {
+        "key": "高2",
+        "beat": 147.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #232、鍵符 d"
+      },
+      {
+        "key": "高♯2",
+        "beat": 148,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #233、鍵符 D"
+      },
+      {
+        "key": "高4",
+        "beat": 148.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #234、鍵符 g"
+      },
+      {
+        "key": "高4",
+        "beat": 149,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #235、鍵符 g"
+      },
+      {
+        "key": "高♯2",
+        "beat": 149.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #236、鍵符 D"
+      },
+      {
+        "key": "高4",
+        "beat": 150,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #237、鍵符 g"
+      },
+      {
+        "key": "高5",
+        "beat": 150.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #238、鍵符 h"
+      },
+      {
+        "key": "高♯5",
+        "beat": 151,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #239、鍵符 H"
+      },
+      {
+        "key": "高♯5",
+        "beat": 151.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #240、鍵符 H"
+      },
+      {
+        "key": "高5",
+        "beat": 152,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #241、鍵符 h"
+      },
+      {
+        "key": "高4",
+        "beat": 152.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #242、鍵符 g"
+      },
+      {
+        "key": "高♯2",
+        "beat": 153,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #243、鍵符 D"
+      },
+      {
+        "key": "低4",
+        "beat": 153.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #244、鍵符 4；原 MIDI 音高 41、折返 +1 八度"
+      },
+      {
+        "key": "高1",
+        "beat": 153.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #244、鍵符 s"
+      },
+      {
+        "key": "高2",
+        "beat": 154,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #245、鍵符 d"
+      },
+      {
+        "key": "高♯2",
+        "beat": 154.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #246、鍵符 D"
+      },
+      {
+        "key": "高4",
+        "beat": 155,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #247、鍵符 g"
+      },
+      {
+        "key": "高4",
+        "beat": 155.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #248、鍵符 g"
+      },
+      {
+        "key": "高♯2",
+        "beat": 156,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #249、鍵符 D"
+      },
+      {
+        "key": "高4",
+        "beat": 156.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #250、鍵符 g"
+      },
+      {
+        "key": "高5",
+        "beat": 157,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #251、鍵符 h"
+      },
+      {
+        "key": "高♯5",
+        "beat": 157.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #252、鍵符 H"
+      },
+      {
+        "key": "高♯5",
+        "beat": 158,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #253、鍵符 H"
+      },
+      {
+        "key": "高5",
+        "beat": 158.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #254、鍵符 h"
+      },
+      {
+        "key": "高4",
+        "beat": 159,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #255、鍵符 g"
+      },
+      {
+        "key": "高♯2",
+        "beat": 159.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #256、鍵符 D"
+      },
+      {
+        "key": "低1",
+        "beat": 160,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #257、鍵符 8"
+      },
+      {
+        "key": "高1",
+        "beat": 160,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #257、鍵符 s"
+      },
+      {
+        "key": "中2",
+        "beat": 160.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #258、鍵符 y"
+      },
+      {
+        "key": "中♯2",
+        "beat": 161,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #259、鍵符 Y"
+      },
+      {
+        "key": "中2",
+        "beat": 161.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #260、鍵符 y"
+      },
+      {
+        "key": "高1",
+        "beat": 162,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #261、鍵符 s"
+      },
+      {
+        "key": "中♯2",
+        "beat": 162.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #262、鍵符 Y"
+      },
+      {
+        "key": "中4",
+        "beat": 163,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #263、鍵符 i"
+      },
+      {
+        "key": "中♯2",
+        "beat": 163.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #264、鍵符 Y"
+      },
+      {
+        "key": "高1",
+        "beat": 164,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #265、鍵符 s"
+      },
+      {
+        "key": "中4",
+        "beat": 164.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #266、鍵符 i"
+      },
+      {
+        "key": "中5",
+        "beat": 165,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #267、鍵符 o"
+      },
+      {
+        "key": "中4",
+        "beat": 165.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #268、鍵符 i"
+      },
+      {
+        "key": "高1",
+        "beat": 166,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #269、鍵符 s"
+      },
+      {
+        "key": "中5",
+        "beat": 166.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #270、鍵符 o"
+      },
+      {
+        "key": "中♯5",
+        "beat": 167,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #271、鍵符 O"
+      },
+      {
+        "key": "中5",
+        "beat": 167.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #272、鍵符 o"
+      },
+      {
+        "key": "低♯6",
+        "beat": 168,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #273、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "高1",
+        "beat": 168,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #273、鍵符 s"
+      },
+      {
+        "key": "中2",
+        "beat": 168.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #274、鍵符 y"
+      },
+      {
+        "key": "中♯2",
+        "beat": 169,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #275、鍵符 Y"
+      },
+      {
+        "key": "中2",
+        "beat": 169.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #276、鍵符 y"
+      },
+      {
+        "key": "高1",
+        "beat": 170,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #277、鍵符 s"
+      },
+      {
+        "key": "中♯2",
+        "beat": 170.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #278、鍵符 Y"
+      },
+      {
+        "key": "中4",
+        "beat": 171,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #279、鍵符 i"
+      },
+      {
+        "key": "中♯2",
+        "beat": 171.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #280、鍵符 Y"
+      },
+      {
+        "key": "高1",
+        "beat": 172,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #281、鍵符 s"
+      },
+      {
+        "key": "中4",
+        "beat": 172.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #282、鍵符 i"
+      },
+      {
+        "key": "中5",
+        "beat": 173,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #283、鍵符 o"
+      },
+      {
+        "key": "中♯5",
+        "beat": 173.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #284、鍵符 O"
+      },
+      {
+        "key": "高1",
+        "beat": 174,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #285、鍵符 s"
+      },
+      {
+        "key": "中♯5",
+        "beat": 174.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #286、鍵符 O"
+      },
+      {
+        "key": "中♯6",
+        "beat": 175,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #287、鍵符 P"
+      },
+      {
+        "key": "高1",
+        "beat": 175.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #288、鍵符 s"
+      },
+      {
+        "key": "低♯5",
+        "beat": 176,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #289、鍵符 %；原 MIDI 音高 44、折返 +1 八度"
+      },
+      {
+        "key": "高1",
+        "beat": 176,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #289、鍵符 s"
+      },
+      {
+        "key": "高2",
+        "beat": 176.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #290、鍵符 d"
+      },
+      {
+        "key": "高♯2",
+        "beat": 177,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #291、鍵符 D"
+      },
+      {
+        "key": "高4",
+        "beat": 177.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #292、鍵符 g"
+      },
+      {
+        "key": "高4",
+        "beat": 178,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #293、鍵符 g"
+      },
+      {
+        "key": "高♯2",
+        "beat": 178.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #294、鍵符 D"
+      },
+      {
+        "key": "高4",
+        "beat": 179,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #295、鍵符 g"
+      },
+      {
+        "key": "高5",
+        "beat": 179.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #296、鍵符 h"
+      },
+      {
+        "key": "高♯5",
+        "beat": 180,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #297、鍵符 H"
+      },
+      {
+        "key": "高♯5",
+        "beat": 180.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #298、鍵符 H"
+      },
+      {
+        "key": "高5",
+        "beat": 181,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #299、鍵符 h"
+      },
+      {
+        "key": "高4",
+        "beat": 181.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #300、鍵符 g"
+      },
+      {
+        "key": "高♯2",
+        "beat": 182,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #301、鍵符 D"
+      },
+      {
+        "key": "低4",
+        "beat": 182.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #302、鍵符 4；原 MIDI 音高 41、折返 +1 八度"
+      },
+      {
+        "key": "高1",
+        "beat": 182.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #302、鍵符 s"
+      },
+      {
+        "key": "高2",
+        "beat": 183,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #303、鍵符 d"
+      },
+      {
+        "key": "高♯2",
+        "beat": 183.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #304、鍵符 D"
+      },
+      {
+        "key": "高4",
+        "beat": 184,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #305、鍵符 g"
+      },
+      {
+        "key": "高4",
+        "beat": 184.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #306、鍵符 g"
+      },
+      {
+        "key": "高♯2",
+        "beat": 185,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #307、鍵符 D"
+      },
+      {
+        "key": "高4",
+        "beat": 185.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #308、鍵符 g"
+      },
+      {
+        "key": "高5",
+        "beat": 186,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #309、鍵符 h"
+      },
+      {
+        "key": "高♯5",
+        "beat": 186.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #310、鍵符 H"
+      },
+      {
+        "key": "高♯6",
+        "beat": 187,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #311、鍵符 J"
+      },
+      {
+        "key": "高♯5",
+        "beat": 187.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #312、鍵符 H"
+      },
+      {
+        "key": "高5",
+        "beat": 188,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #313、鍵符 h"
+      },
+      {
+        "key": "高4",
+        "beat": 188.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #314、鍵符 g"
+      },
+      {
+        "key": "低1",
+        "beat": 189,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #315、鍵符 8"
+      },
+      {
+        "key": "高3",
+        "beat": 189,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #315、鍵符 f"
+      },
+      {
+        "key": "中5",
+        "beat": 189.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #316、鍵符 o"
+      },
+      {
+        "key": "高1",
+        "beat": 190,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #317、鍵符 s"
+      },
+      {
+        "key": "高2",
+        "beat": 190.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #318、鍵符 d"
+      },
+      {
+        "key": "高3",
+        "beat": 191,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #319、鍵符 f"
+      },
+      {
+        "key": "中5",
+        "beat": 191.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #320、鍵符 o"
+      },
+      {
+        "key": "高1",
+        "beat": 192,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #321、鍵符 s"
+      },
+      {
+        "key": "高2",
+        "beat": 192.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #322、鍵符 d"
+      },
+      {
+        "key": "高3",
+        "beat": 193,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #323、鍵符 f"
+      },
+      {
+        "key": "中5",
+        "beat": 193.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #324、鍵符 o"
+      },
+      {
+        "key": "高1",
+        "beat": 194,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #325、鍵符 s"
+      },
+      {
+        "key": "高2",
+        "beat": 194.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #326、鍵符 d"
+      },
+      {
+        "key": "高3",
+        "beat": 195,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #327、鍵符 f"
+      },
+      {
+        "key": "中5",
+        "beat": 195.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #328、鍵符 o"
+      },
+      {
+        "key": "高1",
+        "beat": 196,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #329、鍵符 s"
+      },
+      {
+        "key": "高2",
+        "beat": 196.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #330、鍵符 d"
+      },
+      {
+        "key": "低1",
+        "beat": 197,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #331、鍵符 8"
+      },
+      {
+        "key": "高5",
+        "beat": 197,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #331、鍵符 h"
+      },
+      {
+        "key": "高1",
+        "beat": 197.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #332、鍵符 s"
+      },
+      {
+        "key": "高3",
+        "beat": 198,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #333、鍵符 f"
+      },
+      {
+        "key": "高4",
+        "beat": 198.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #334、鍵符 g"
+      },
+      {
+        "key": "高5",
+        "beat": 199,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #335、鍵符 h"
+      },
+      {
+        "key": "高1",
+        "beat": 199.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #336、鍵符 s"
+      },
+      {
+        "key": "高3",
+        "beat": 200,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #337、鍵符 f"
+      },
+      {
+        "key": "高4",
+        "beat": 200.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #338、鍵符 g"
+      },
+      {
+        "key": "高5",
+        "beat": 201,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #339、鍵符 h"
+      },
+      {
+        "key": "高1",
+        "beat": 201.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #340、鍵符 s"
+      },
+      {
+        "key": "高3",
+        "beat": 202,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #341、鍵符 f"
+      },
+      {
+        "key": "高4",
+        "beat": 202.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #342、鍵符 g"
+      },
+      {
+        "key": "高5",
+        "beat": 203,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #343、鍵符 h"
+      },
+      {
+        "key": "高5",
+        "beat": 203.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #344、鍵符 h"
+      },
+      {
+        "key": "低4",
+        "beat": 204,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #345、鍵符 4；原 MIDI 音高 41、折返 +1 八度"
+      },
+      {
+        "key": "高♯5",
+        "beat": 204,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #345、鍵符 H"
+      },
+      {
+        "key": "高♯5",
+        "beat": 204.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #346、鍵符 H"
+      },
+      {
+        "key": "高5",
+        "beat": 205,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #347、鍵符 h"
+      },
+      {
+        "key": "高4",
+        "beat": 205.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #348、鍵符 g"
+      },
+      {
+        "key": "高4",
+        "beat": 206,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #349、鍵符 g"
+      },
+      {
+        "key": "高♯2",
+        "beat": 206.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #350、鍵符 D"
+      },
+      {
+        "key": "低♯6",
+        "beat": 207,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #351、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 207,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #351、鍵符 d"
+      },
+      {
+        "key": "高2",
+        "beat": 207.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #352、鍵符 d"
+      },
+      {
+        "key": "高♯2",
+        "beat": 208,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #353、鍵符 D"
+      },
+      {
+        "key": "高4",
+        "beat": 208.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #354、鍵符 g"
+      },
+      {
+        "key": "中♯6",
+        "beat": 209,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #355、鍵符 P"
+      },
+      {
+        "key": "低♯2",
+        "beat": 209.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #356、鍵符 @；原 MIDI 音高 39、折返 +1 八度"
+      },
+      {
+        "key": "高5",
+        "beat": 209.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #356、鍵符 h"
+      },
+      {
+        "key": "高♯6",
+        "beat": 210,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #357、鍵符 J"
+      },
+      {
+        "key": "高♯6",
+        "beat": 210.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #358、鍵符 J"
+      },
+      {
+        "key": "高5",
+        "beat": 211,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #359、鍵符 h"
+      },
+      {
+        "key": "低♯5",
+        "beat": 211.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #360、鍵符 %；原 MIDI 音高 44、折返 +1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 211.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #360、鍵符 D"
+      },
+      {
+        "key": "高1",
+        "beat": 212,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #361、鍵符 s"
+      },
+      {
+        "key": "高1",
+        "beat": 212.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #362、鍵符 s"
+      },
+      {
+        "key": "中♯6",
+        "beat": 213,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #363、鍵符 P"
+      },
+      {
+        "key": "低2",
+        "beat": 213.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #364、鍵符 9"
+      },
+      {
+        "key": "高1",
+        "beat": 213.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #364、鍵符 s"
+      },
+      {
+        "key": "高2",
+        "beat": 214.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #365、鍵符 d"
+      },
+      {
+        "key": "高♯2",
+        "beat": 215,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #366、鍵符 D"
+      },
+      {
+        "key": "高4",
+        "beat": 215.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #367、鍵符 g"
+      },
+      {
+        "key": "低5",
+        "beat": 216.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #368、鍵符 5；原 MIDI 音高 43、折返 +1 八度"
+      },
+      {
+        "key": "高5",
+        "beat": 216.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #368、鍵符 h"
+      },
+      {
+        "key": "低5",
+        "beat": 218,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #369、鍵符 5；原 MIDI 音高 43、折返 +1 八度"
+      },
+      {
+        "key": "高5",
+        "beat": 218,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #369、鍵符 v；原 MIDI 音高 91、折返 -1 八度"
+      },
+      {
+        "key": "高5",
+        "beat": 219.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #370、鍵符 h"
+      },
+      {
+        "key": "高5",
+        "beat": 220.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #371、鍵符 h"
+      },
+      {
+        "key": "高5",
+        "beat": 221.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #372、鍵符 h"
+      },
+      {
+        "key": "高5",
+        "beat": 222.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #373、鍵符 h"
+      },
+      {
+        "key": "高5",
+        "beat": 223.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #374、鍵符 h"
+      },
+      {
+        "key": "高4",
+        "beat": 223.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #375、鍵符 g"
+      },
+      {
+        "key": "高♯2",
+        "beat": 224.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #376、鍵符 D"
+      },
+      {
+        "key": "高2",
+        "beat": 224.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #377、鍵符 d"
+      },
+      {
+        "key": "低♯5",
+        "beat": 225.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #378、鍵符 %；原 MIDI 音高 44、折返 +1 八度"
+      },
+      {
+        "key": "高1",
+        "beat": 225.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #378、鍵符 s"
+      },
+      {
+        "key": "低♯2",
+        "beat": 226,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #379、鍵符 ("
+      },
+      {
+        "key": "低♯5",
+        "beat": 226.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #380、鍵符 W"
+      },
+      {
+        "key": "高5",
+        "beat": 226.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #380、鍵符 h"
+      },
+      {
+        "key": "高♯6",
+        "beat": 227.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #381、鍵符 J"
+      },
+      {
+        "key": "低♯6",
+        "beat": 228.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #382、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 228.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #382、鍵符 d"
+      },
+      {
+        "key": "低4",
+        "beat": 229,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #383、鍵符 q"
+      },
+      {
+        "key": "低♯6",
+        "beat": 229.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #384、鍵符 E"
+      },
+      {
+        "key": "高5",
+        "beat": 229.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #384、鍵符 h"
+      },
+      {
+        "key": "高♯6",
+        "beat": 230.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #385、鍵符 J"
+      },
+      {
+        "key": "低1",
+        "beat": 231.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #386、鍵符 8"
+      },
+      {
+        "key": "高♯2",
+        "beat": 231.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #386、鍵符 D"
+      },
+      {
+        "key": "低5",
+        "beat": 232,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #387、鍵符 w"
+      },
+      {
+        "key": "中1",
+        "beat": 232.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #388、鍵符 t"
+      },
+      {
+        "key": "高4",
+        "beat": 232.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #388、鍵符 g"
+      },
+      {
+        "key": "高5",
+        "beat": 233.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #389、鍵符 h"
+      },
+      {
+        "key": "低♯2",
+        "beat": 234.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #390、鍵符 @；原 MIDI 音高 39、折返 +1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 234.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #390、鍵符 d"
+      },
+      {
+        "key": "低♯6",
+        "beat": 235,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #391、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 235,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #391、鍵符 d"
+      },
+      {
+        "key": "低♯2",
+        "beat": 235.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #392、鍵符 ("
+      },
+      {
+        "key": "高♯2",
+        "beat": 235.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #392、鍵符 D"
+      },
+      {
+        "key": "高2",
+        "beat": 236.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #393、鍵符 d"
+      },
+      {
+        "key": "低♯5",
+        "beat": 237.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #394、鍵符 %；原 MIDI 音高 44、折返 +1 八度"
+      },
+      {
+        "key": "高1",
+        "beat": 237.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #394、鍵符 s"
+      },
+      {
+        "key": "低♯2",
+        "beat": 238,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #395、鍵符 ("
+      },
+      {
+        "key": "低♯5",
+        "beat": 238.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #396、鍵符 W"
+      },
+      {
+        "key": "高5",
+        "beat": 238.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #396、鍵符 h"
+      },
+      {
+        "key": "高♯6",
+        "beat": 239.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #397、鍵符 J"
+      },
+      {
+        "key": "低♯6",
+        "beat": 240.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #398、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 240.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #398、鍵符 d"
+      },
+      {
+        "key": "低4",
+        "beat": 241,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #399、鍵符 q"
+      },
+      {
+        "key": "低♯6",
+        "beat": 241.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #400、鍵符 E"
+      },
+      {
+        "key": "高5",
+        "beat": 241.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #400、鍵符 h"
+      },
+      {
+        "key": "高4",
+        "beat": 242.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #401、鍵符 g"
+      },
+      {
+        "key": "低1",
+        "beat": 243.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #402、鍵符 8"
+      },
+      {
+        "key": "高♯2",
+        "beat": 243.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #402、鍵符 D"
+      },
+      {
+        "key": "低5",
+        "beat": 244,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #403、鍵符 w"
+      },
+      {
+        "key": "中1",
+        "beat": 244.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #404、鍵符 t"
+      },
+      {
+        "key": "高4",
+        "beat": 244.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #404、鍵符 g"
+      },
+      {
+        "key": "高5",
+        "beat": 245.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #405、鍵符 h"
+      },
+      {
+        "key": "低♯2",
+        "beat": 246.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #406、鍵符 @；原 MIDI 音高 39、折返 +1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 246.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #406、鍵符 d"
+      },
+      {
+        "key": "低♯6",
+        "beat": 247,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #407、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 247,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #407、鍵符 d"
+      },
+      {
+        "key": "低♯2",
+        "beat": 247.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #408、鍵符 ("
+      },
+      {
+        "key": "高4",
+        "beat": 247.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #408、鍵符 g"
+      },
+      {
+        "key": "高♯6",
+        "beat": 248.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #409、鍵符 J"
+      },
+      {
+        "key": "高♯5",
+        "beat": 249,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #410、鍵符 H"
+      },
+      {
+        "key": "高5",
+        "beat": 249.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #411、鍵符 h"
+      },
+      {
+        "key": "高4",
+        "beat": 250,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #412、鍵符 g"
+      },
+      {
+        "key": "低♯5",
+        "beat": 250.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #413、鍵符 %；原 MIDI 音高 44、折返 +1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 250.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #413、鍵符 D"
+      },
+      {
+        "key": "高♯2",
+        "beat": 251,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #414、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 251.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #415、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "低♯2",
+        "beat": 252.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #416、鍵符 ("
+      },
+      {
+        "key": "高♯2",
+        "beat": 252.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #416、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 253.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #417、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 254,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #418、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "低♯6",
+        "beat": 254.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #419、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 255,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #420、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 255.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #421、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "低4",
+        "beat": 256.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #422、鍵符 q"
+      },
+      {
+        "key": "高♯2",
+        "beat": 256.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #422、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 257.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #423、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 258,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #424、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "低1",
+        "beat": 258.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #425、鍵符 8"
+      },
+      {
+        "key": "高♯2",
+        "beat": 259,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #426、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 259.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #427、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "低5",
+        "beat": 260.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #428、鍵符 w"
+      },
+      {
+        "key": "高♯2",
+        "beat": 260.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #428、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 261.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #429、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 262,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #430、鍵符 z；原 MIDI 音高 86、折返 -1 八度"
+      },
+      {
+        "key": "低♯2",
+        "beat": 262.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #431、鍵符 @；原 MIDI 音高 39、折返 +1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 263,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #432、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 263.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #433、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "低♯6",
+        "beat": 264.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #434、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "高5",
+        "beat": 264.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #434、鍵符 v；原 MIDI 音高 91、折返 -1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 265.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #435、鍵符 z；原 MIDI 音高 86、折返 -1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 266,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #436、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "低♯5",
+        "beat": 266.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #437、鍵符 %；原 MIDI 音高 44、折返 +1 八度"
+      },
+      {
+        "key": "高♯6",
+        "beat": 267,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #438、鍵符 J"
+      },
+      {
+        "key": "高♯6",
+        "beat": 267.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #439、鍵符 J"
+      },
+      {
+        "key": "低♯2",
+        "beat": 268.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #440、鍵符 ("
+      },
+      {
+        "key": "高♯6",
+        "beat": 268.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #440、鍵符 J"
+      },
+      {
+        "key": "高♯6",
+        "beat": 269.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #441、鍵符 J"
+      },
+      {
+        "key": "高♯6",
+        "beat": 270,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #442、鍵符 J"
+      },
+      {
+        "key": "低♯6",
+        "beat": 270.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #443、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 271,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #444、鍵符 z；原 MIDI 音高 86、折返 -1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 271.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #445、鍵符 z；原 MIDI 音高 86、折返 -1 八度"
+      },
+      {
+        "key": "低4",
+        "beat": 272.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #446、鍵符 q"
+      },
+      {
+        "key": "高♯2",
+        "beat": 273,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #447、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "高4",
+        "beat": 273.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #448、鍵符 c；原 MIDI 音高 89、折返 -1 八度"
+      },
+      {
+        "key": "低1",
+        "beat": 274.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #449、鍵符 8"
+      },
+      {
+        "key": "高5",
+        "beat": 275,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #450、鍵符 v；原 MIDI 音高 91、折返 -1 八度"
+      },
+      {
+        "key": "高5",
+        "beat": 275.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #451、鍵符 v；原 MIDI 音高 91、折返 -1 八度"
+      },
+      {
+        "key": "低5",
+        "beat": 276.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #452、鍵符 w"
+      },
+      {
+        "key": "高5",
+        "beat": 276.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #452、鍵符 v；原 MIDI 音高 91、折返 -1 八度"
+      },
+      {
+        "key": "高5",
+        "beat": 277.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #453、鍵符 v；原 MIDI 音高 91、折返 -1 八度"
+      },
+      {
+        "key": "高5",
+        "beat": 278,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #454、鍵符 v；原 MIDI 音高 91、折返 -1 八度"
+      },
+      {
+        "key": "低1",
+        "beat": 278.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #455、鍵符 8"
+      },
+      {
+        "key": "低♯5",
+        "beat": 280,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #456、鍵符 %；原 MIDI 音高 44、折返 +1 八度"
+      },
+      {
+        "key": "中1",
+        "beat": 280,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #456、鍵符 t"
+      },
+      {
+        "key": "中5",
+        "beat": 281,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #457、鍵符 o"
+      },
+      {
+        "key": "中♯6",
+        "beat": 281.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #458、鍵符 P"
+      },
+      {
+        "key": "低♯6",
+        "beat": 282.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #459、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "中2",
+        "beat": 282.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #459、鍵符 y"
+      },
+      {
+        "key": "中5",
+        "beat": 283.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #460、鍵符 o"
+      },
+      {
+        "key": "中♯6",
+        "beat": 284.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #461、鍵符 P"
+      },
+      {
+        "key": "低1",
+        "beat": 285,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #462、鍵符 8"
+      },
+      {
+        "key": "中♯2",
+        "beat": 285,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #462、鍵符 Y"
+      },
+      {
+        "key": "中4",
+        "beat": 286,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #463、鍵符 i"
+      },
+      {
+        "key": "中5",
+        "beat": 286.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #464、鍵符 o"
+      },
+      {
+        "key": "低5",
+        "beat": 287.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #465、鍵符 5；原 MIDI 音高 43、折返 +1 八度"
+      },
+      {
+        "key": "中2",
+        "beat": 287.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #465、鍵符 y"
+      },
+      {
+        "key": "中2",
+        "beat": 288.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #466、鍵符 y"
+      },
+      {
+        "key": "中♯2",
+        "beat": 289,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #467、鍵符 Y"
+      },
+      {
+        "key": "中2",
+        "beat": 289.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #468、鍵符 y"
+      },
+      {
+        "key": "低♯5",
+        "beat": 290.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #469、鍵符 %；原 MIDI 音高 44、折返 +1 八度"
+      },
+      {
+        "key": "中1",
+        "beat": 290.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #469、鍵符 t"
+      },
+      {
+        "key": "高1",
+        "beat": 291.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #470、鍵符 s"
+      },
+      {
+        "key": "高5",
+        "beat": 292,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #471、鍵符 h"
+      },
+      {
+        "key": "高♯6",
+        "beat": 292.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #472、鍵符 J"
+      },
+      {
+        "key": "低♯6",
+        "beat": 293.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #473、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "中2",
+        "beat": 293.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #473、鍵符 y"
+      },
+      {
+        "key": "高2",
+        "beat": 294.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #474、鍵符 d"
+      },
+      {
+        "key": "高5",
+        "beat": 295,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #475、鍵符 h"
+      },
+      {
+        "key": "高♯6",
+        "beat": 295.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #476、鍵符 J"
+      },
+      {
+        "key": "低1",
+        "beat": 296.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #477、鍵符 8"
+      },
+      {
+        "key": "中♯2",
+        "beat": 296.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #477、鍵符 Y"
+      },
+      {
+        "key": "高♯2",
+        "beat": 297.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #478、鍵符 D"
+      },
+      {
+        "key": "高4",
+        "beat": 298,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #479、鍵符 g"
+      },
+      {
+        "key": "高5",
+        "beat": 298.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #480、鍵符 h"
+      },
+      {
+        "key": "低♯6",
+        "beat": 299.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #481、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 299.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #481、鍵符 d"
+      },
+      {
+        "key": "高2",
+        "beat": 300.25,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #482、鍵符 z；原 MIDI 音高 86、折返 -1 八度"
+      },
+      {
+        "key": "高♯2",
+        "beat": 301,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #483、鍵符 Z；原 MIDI 音高 87、折返 -1 八度"
+      },
+      {
+        "key": "高2",
+        "beat": 301.75,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #484、鍵符 z；原 MIDI 音高 86、折返 -1 八度"
+      },
+      {
+        "key": "低♯6",
+        "beat": 302.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #485、鍵符 ^；原 MIDI 音高 46、折返 +1 八度"
+      },
+      {
+        "key": "高5",
+        "beat": 302.5,
+        "length": 0.44,
+        "enabled": true,
+        "warning": "試演版：按鍵譜無精確時值；來源提示 #485、鍵符 v；原 MIDI 音高 91、折返 -1 八度"
+      }
+    ]
+  }
+}
