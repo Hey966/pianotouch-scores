@@ -262,14 +262,6 @@
       "bpm": 120,
       "noteCount": 36,
       "file": "songs/song-mvnuol5r-p1hoh.pianotouch.json"
-    },
-    {
-      "id": "song-mvnzav7t-13hqb",
-      "title": "甲乙丙丁",
-      "artist": "Jess Lee",
-      "bpm": 65,
-      "noteCount": 1202,
-      "file": "songs/song-mvnzav7t-13hqb.pianotouch.json"
     }
   ]
 }
