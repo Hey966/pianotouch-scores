@@ -50,6 +50,11 @@
       "id": "album-mvnp1mwe-3sgxn",
       "name": "邁克爾·亨特",
       "artist": "Michael Hunter"
+    },
+    {
+      "id": "album-mvnpncsj-uyexb",
+      "name": "菅野祐悟",
+      "artist": "Yugo Kanno"
     }
   ],
   "songs": [
@@ -240,6 +245,15 @@
       "noteCount": 1189,
       "file": "songs/song-mvnoy6qd-c910q.pianotouch.json",
       "albumId": "album-mvnp1mwe-3sgxn"
+    },
+    {
+      "id": "song-mvnplhpx-5id1i",
+      "title": "Jotaro's Theme",
+      "artist": "Yugo Kanno",
+      "bpm": 140,
+      "noteCount": 346,
+      "file": "songs/song-mvnplhpx-5id1i.pianotouch.json",
+      "albumId": "album-mvnpncsj-uyexb"
     }
   ]
 }
