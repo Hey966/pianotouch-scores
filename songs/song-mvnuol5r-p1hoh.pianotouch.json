@@ -1,0 +1,266 @@
+{
+  "format": "pianotouch-score",
+  "version": 1,
+  "score": {
+    "title": "PianoTouch 36鍵依序點擊測試（每鍵0.2秒）",
+    "bpm": 120,
+    "reviewed": false,
+    "sourceImage": "",
+    "endBeat": 14.4,
+    "issues": [],
+    "events": [
+      {
+        "key": "低1",
+        "beat": 0,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯1",
+        "beat": 0.4,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低2",
+        "beat": 0.8,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯2",
+        "beat": 1.2,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低3",
+        "beat": 1.6,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低4",
+        "beat": 2,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯4",
+        "beat": 2.4,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低5",
+        "beat": 2.8,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯5",
+        "beat": 3.2,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低6",
+        "beat": 3.6,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低♯6",
+        "beat": 4,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "低7",
+        "beat": 4.4,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中1",
+        "beat": 4.8,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯1",
+        "beat": 5.2,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中2",
+        "beat": 5.6,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯2",
+        "beat": 6,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中3",
+        "beat": 6.4,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中4",
+        "beat": 6.8,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯4",
+        "beat": 7.2,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中5",
+        "beat": 7.6,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯5",
+        "beat": 8,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中6",
+        "beat": 8.4,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中♯6",
+        "beat": 8.8,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "中7",
+        "beat": 9.2,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高1",
+        "beat": 9.6,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高♯1",
+        "beat": 10,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高2",
+        "beat": 10.4,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高♯2",
+        "beat": 10.8,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高3",
+        "beat": 11.2,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高4",
+        "beat": 11.6,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高♯4",
+        "beat": 12,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高5",
+        "beat": 12.4,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高♯5",
+        "beat": 12.8,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高6",
+        "beat": 13.2,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高♯6",
+        "beat": 13.6,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      },
+      {
+        "key": "高7",
+        "beat": 14,
+        "length": 0.4,
+        "enabled": true,
+        "warning": ""
+      }
+    ]
+  }
+}

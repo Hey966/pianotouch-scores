@@ -254,6 +254,14 @@
       "noteCount": 346,
       "file": "songs/song-mvnplhpx-5id1i.pianotouch.json",
       "albumId": "album-mvnpncsj-uyexb"
+    },
+    {
+      "id": "song-mvnuol5r-p1hoh",
+      "title": "PianoTouch 36鍵依序點擊測試（每鍵0.2秒）",
+      "artist": "",
+      "bpm": 120,
+      "noteCount": 36,
+      "file": "songs/song-mvnuol5r-p1hoh.pianotouch.json"
     }
   ]
 }
